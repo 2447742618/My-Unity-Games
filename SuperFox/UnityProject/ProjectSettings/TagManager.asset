@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collections
+  - Enemies
+  - HiddenLine
+  - Boss
+  - Mount
+  - Fireball
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - 
+  - Enemies
+  - Ground
+  - Fireball
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2929204085
+    locked: 0
+  - name: Frontground
+    uniqueID: 3103362923
+    locked: 0
+  - name: Map
+    uniqueID: 2369161185
+    locked: 0
+  - name: Enemies
+    uniqueID: 3452448173
+    locked: 0
+  - name: Hole
+    uniqueID: 2069505591
+    locked: 0
+  - name: Player
+    uniqueID: 2576692977
+    locked: 0
+  - name: Collections
+    uniqueID: 1421406365
+    locked: 0
+  - name: Hide
+    uniqueID: 3169641665
+    locked: 0
+  - name: Effect
+    uniqueID: 839489611
+    locked: 0
