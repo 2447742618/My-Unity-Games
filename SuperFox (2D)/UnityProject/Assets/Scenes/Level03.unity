@@ -22539,6 +22539,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 894584102727037638, guid: e7372816098249540bb96514a3104c2a, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1237141486528785733, guid: e7372816098249540bb96514a3104c2a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -24688,7 +24692,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_Font: {fileID: 12800000, guid: 7d7e5f4204d5cdb4eb65264e2ac17bac, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -24700,7 +24704,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next Page
+  m_Text: "\u4E0B\u4E00\u9875"
 --- !u!222 &1624024738
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25031,7 +25035,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_Font: {fileID: 12800000, guid: 7d7e5f4204d5cdb4eb65264e2ac17bac, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -25043,7 +25047,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: previous page
+  m_Text: "\u4E0A\u4E00\u9875"
 --- !u!222 &1763507052
 CanvasRenderer:
   m_ObjectHideFlags: 0

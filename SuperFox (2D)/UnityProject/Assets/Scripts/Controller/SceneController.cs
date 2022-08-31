@@ -46,6 +46,8 @@ public class SceneController : MonoBehaviour
     {
         eventSystem.SetSelectedGameObject(null);//将选取的物体置空，避免按钮被重复按下
 
+        GetComponent<Image>().raycastTarget = true;//进行UI遮挡
+
         //停止BGM
         if (SceneManager.GetActiveScene().buildIndex == 0) GameObject.Find("Main Camera").GetComponent<AudioSource>().Stop();
         else GameObject.Find("Player").GetComponents<AudioSource>()[0].Stop();
@@ -81,6 +83,7 @@ public class SceneController : MonoBehaviour
         {
             if (Input.anyKeyDown)
             {
+                GetComponent<Image>().raycastTarget = false;
                 operation.allowSceneActivation = true;
             }
             yield return 0;
