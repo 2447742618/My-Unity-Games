@@ -371,6 +371,12 @@ public class Player : MonoBehaviour
         {
             StopCoroutine("CheckDead");
             StartCoroutine(PlayDeathAnimation());//调用携程播放死亡动画
+
+            //禁用部分按钮
+            canvas.transform.Find("Setting").GetComponent<Button>().interactable = false;
+            canvas.transform.Find("RestartButton").GetComponent<Button>().interactable = false;
+
+            if (canvas.transform.Find("TipsButton") != null) canvas.transform.Find("TipsButton").GetComponent<Button>().interactable = false;
         }
         else StartCoroutine(HurtAnimation(gameObject));//受伤效果  
 
