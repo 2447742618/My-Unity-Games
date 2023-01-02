@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "Im Bau",
+  "DismountBeforeEntering": "Vor dem Eintreten absteigen",
+  "PiecesOfHay": "Heuballen: {0}/{1}",
+  "AddedHay": "{0} Heuballen zum Silo hinzugefügt.",
+  "MillFull": "Kein Platz übrig",
+  "CantMill": "Kann nicht gemahlen werden",
+  "NeedSilo": "Benötigt Silo",
+  "CantEnter": "Betreten jetzt nicht möglich",
+  "WrongFishType": "Dein {0} will nicht in einem {1} Teich leben.",
+  "WrongFishTypeCoral": "{0} kann nur in einem {0} Teich platziert werden.",
+  "CantPutInPonds": "Der {0} wäre da drin nicht glücklich.",
+  "NoFish": "In diesem Teich können Fische platziert werden.",
+  "PondFull": "Dieser Teich ist voll.",
+  "Paint_Region_Roof": "Dach",
+  "Paint_Region_Building": "Dach"
+}

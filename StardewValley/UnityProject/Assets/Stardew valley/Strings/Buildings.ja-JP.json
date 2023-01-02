@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "- 工事中 -",
+  "DismountBeforeEntering": "入るまえにウマからおりてください",
+  "PiecesOfHay": "たくわえたほし草：{0}/{1}",
+  "AddedHay": "ほし草を{0}つサイロに入れた。",
+  "MillFull": "場所がありません",
+  "CantMill": "ウスにかけられません",
+  "NeedSilo": "サイロが必要です",
+  "CantEnter": "今は入れない",
+  "WrongFishType": "あなたの{0}は{1}池に住みたくありません。",
+  "WrongFishTypeCoral": "{0}は{0}池にのみ配置が可能です。",
+  "CantPutInPonds": "{0}はそこでは幸せみはなれないでしょう。",
+  "NoFish": "この池に魚を投入することができます。",
+  "PondFull": "この池はいっぱいです。",
+  "Paint_Region_Roof": "屋根",
+  "Paint_Region_Building": "屋根"
+}

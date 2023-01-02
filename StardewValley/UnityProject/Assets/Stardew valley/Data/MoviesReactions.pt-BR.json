@@ -1,0 +1,2710 @@
+[
+  {
+    "NPCName": "Penny",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [
+          "Pam"
+        ],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Assistir um filme com a minha mãe traz tantas memórias!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"(Pam e Penny está assistindo atentamente!)\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É bom fazer coisas como uma família de novo!"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou ansiosa por isso! Jas e Vincent não param de falar sobre."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/shake Penny 3000/pause 500/message \"Penny parece estar segurando lágrimas...\"",
+            "Text": "Wow, deve ser muito difícil deixar sua família assim...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Obrigada por me trazer aqui, mal posso esperar para contar como foi para as crianças!"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, '{0}'! Isso parece divertido!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"(Penny está sorrindo)\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu deveria trazer as crianças para assistir isso alguma hora!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou animada, estou pronta para dar várias risadas!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eles acabaram de...?! Hahahaha!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ufa, estou com cãimbra de tanto rir...!"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou um pouco nervosa... Eu não assisto muitos filmes de terror.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Penny 3000/pause 500/emote Penny 28",
+            "Text": "Não posso olhar...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Espero que eu não tenha pesadelos hoje!$s"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oooh, estava morrendo de vontade de ver isso!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Incrível! Espero que eles façam outro!"
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, ouvi coisas boas sobre este filme!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi ótimo! Obrigada por me acompanhar!"
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não diria que eu veria este filme por conta própria, mas vou com uma mente aberta..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "..."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Desculpe se eu estraguei o filme para você, mas eu não curti muito..."
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ooh, '{0}'! Eu vi esse filme com {2}!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_9"
+      },
+      {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu vi isso com {2}, foi bem legal!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_10"
+      },
+      {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hmm, eu acho que {2} me levou para assistir isso..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_11"
+      }
+    ]
+  },
+  {
+    "NPCName": "Pam",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, criança. Obrigada por me convidar."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh, isso não foi tão ruim!"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Krobus",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Psst... EI, sou eu, Krobus. Você conseguiu me reconhecer?$8#$b#Se alguém chegar perto, você fala, ok?$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "mysterium_shadow",
+            "Script": "/message \"Krobus está estufando...\"",
+            "Text": "Nem todas as pessoas das sombras são assim!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não costumo usar roupas... É muito desconfortável!$8"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*aham*... Olá! Estou muito animado de estar neste centro de entretenimento visual para consumir um milho estourado... assim como você!$8#$b#*sussurra*... como estou indo?$8"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Então, sua espécie gosta de encarar luzes piscando por várias horas? Muito interessante...$8"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Wizard",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu sinto um poder arcano permeando este edifício hoje..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Há um brilho no olho do Feiticeiro...\"",
+            "Text": "E pensar... que os leigos não sabem que isso são imgens reais!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Para os conhecedores de mistérios esotéricos, isso teve um significado profundo..."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Você me tirou dos meus estudos para *isso*?"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "George",
+    "Reactions": [
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "O jornal deu '5 estrelas' para esse aqui, então eu vou dar um chance."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh! Este filme foi bem legal! Obrigado por me convidar."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hmph... Cinemas não são mais a mesma coisa... Mas o filme pode ser bom o suficiente."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh. Comparado à maioria dos filmes de hoje em dia, não foi ruim.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hmph... Eu vou tirar um cochilo durante esse."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Que vergonha! O lixo que vendem como 'filmes' hoje em dia... "
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Alex",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É para esse ser bem engraçado, estou ansioso."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah! Eu gostei muito. Mas eu não sei se conseguiria viver de discos de glúten."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu queria ver esse faz um tempo. Obrigado pelo convite, @!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi ótimo! Minhas pernas ainda estão formigando de entusiasmo."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, estou bem animado para ver um filme! Mas eu vou precisar de um lanche..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, isso foi bem legal. Obrigado por me convidar, @."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme parece meio de nerd, mas eu vou dar uma chance."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não sei dizer se foi chato, ou se eu não sou inteligente o suficiente para entender...$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Evelyn",
+    "Reactions": [
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Antes do cinema chegar na cidade, eu não tinha visto um filme em 20 anos!$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu amei... agora você sabe o porquê de '{2}' ser considerado um clássico."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É muito gentil da sua parte convidar uma senhora para o cinema.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou feliz que ainda estejam fazendo filmes decentes... Foi divertido!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu nunca fui fã de filmes de terror, mas vou tentar dar uma chance."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Evelyn 3000/pause 500/message \"Evelyn está cobrindo os olhos.\"",
+            "Text": "Já acabou?$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu tive que fechar meus olhos o filme inteiro...$s"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Pierre",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu cresci vendo filmes de ficção científica, então estou interessado em ver como modernizaram o gênero."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah! Não foi o que eu esperava, mas eu gostei bastante! Eu me identifiquei muito com Wumbus.$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu normalmente trabalho o dia todo, então é legal fazer algo assim."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Nada mau! Será que eles têm alguns bonecos que eu poderia vender..."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Abigail",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não acredito que eles fizeram um filme do Rei da Pradaria... Espero que seja bom!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Escuta... eles colocaram a música tema.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A atuação foi horrível, mas ainda foi divertido.$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou animada para ver 'explorando nosso mundo vibrante'... e você?$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não sabia disso!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito interessante. Eu gostei muito dos guaxinins... eles são muito fofos!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu amo filmes de terror... Espero que seja assustador!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Abigail 3000/pause 500/message \"Abigail está rindo!\"",
+            "Text": "Haha! Não é assustador, mas eu adoro.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Foi bem exagerado, mas eu gostei.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei! Obrigadad por me convidar, eu adoro ver filmes.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi interessante... O que será que eu faria na mesma situação?"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Só de ver o trailer, esse aqui parece ser bem entediante...$6"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Me acorde quando alguma coisa interessante acontecer.$6"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*bocejo*... isso foi muito chato, não foi?$6"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Caroline",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sempre amei filmes sobre o velho oeste, então estou bem animada para ver isso!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi ótimo! Pareceu muito autêntico, com as roupas e tudo."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme parece muito fofo, eu estava esperando alguém me convidar!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu espero que ele fique bem...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi adorável. Muito obrigada por me convidar!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "'{0}'... Eu não tenho ideia sobre o que é! Espero que não seja violento."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não foi ruim! Tenho que perguntar para a Abigail sobre quando chegar em casa, tenho certeza que ela assistiu.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu acho que esse vai ser desapontante... Mas ainda estou interessada em dar uma chance."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi bobo... Acho que o Pierre iria gostar.$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Harvey",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou nervoso..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Harvey 3000/pause 500/message \"Harvey está tremendo!\"",
+            "Text": "Estou com medo!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu tenho medo de alturas, então aquelas cenas aéreas me pegaram de jeito... Ainda assim, eu me diverti.$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "action",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu li uma crítica deste filme no jornal da Cidade Zuzu..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ele te faz pensar muito, não é?"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi maravilhoso! Fico muito feliz que tenha me convidado, @.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não vejo muitos filmes, mas esse está sendo aclamado, certo?"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi interessante! Foi pensar sobre esse filme por um bom tempo."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme parece muito intenso para mim...$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Harvey 3000/pause 500/message \"A pressão de Harvey está altíssima!\"",
+            "Text": "Estou tonto...$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Parece que meu corpo está inflamado depois desse filme...$s"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Gus",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu vi um comercial deste filme na TV. Parece bem engraçado!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Como um chef amador, a estranha obsessão com comidas com glúten foi hilária.$h"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Parece que o fim do ano não chegou até você ver '{0}'!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito bonito... e eles fizeram aquela fruta rara parecer deliciosa. Gostaria de prová-la um dia."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eles falam que este filme é 'não convencional'... isso quer dizer que é ruim?$s"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Qual foi o ponto desse filme? Eu não entendo. Talvez eu seja muito velho.$s"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*cheira* *cheira* ... Sinto o cheiro de algo delicioso..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Nada mau. Fico feliz de ter vindo!"
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Lewis",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu assistia filmes de velho oeste quando era pequeno... Fico feliz em ver que ainda fazem filmes assim!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "/message \"Prefeito Lewis parece estar pensando muito...\"",
+            "Text": "(Que cera para bigode ele usa?)"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh, isso foi ótimo! Me trouxe várias memórias...$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "O próprio governador me recomendou este filme!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fantástico! Eles realmente fizeram o Vale do Orvalho parecer lindo, não é? Eles podiam ter mostrado a Vila Pelicanos...$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Como prefeito, eu preciso saber que tipo de filmes estão sendo passados para a nossa comunidade. Nós temos que nos preocupar com a próxima geração!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah! Isso não foi nada mau... eu diria que esse filme tem a 'Aprovação do Prefeito'.$h"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hmm... Acho que vai ser interessante ver o que os jovens veem hoje em dia..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Huh... Será que as mensagens deste filme são boas para a comunidade?"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Jodi",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu vi esse filme uma vez, há muito tempo. É bem romântico!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi incrível... Me identifiquei muito com o tema desse filme. Obrigada por me convidar!"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Espero que os assentos sejam confortáveis, fiquei de pé o dia todo!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não sou muito fanática por filmes... mas eu me diverti! Obrigada, @."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sam",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh cara, estou muito animado para isso! Ouvi falar que tem uma ótimo trilha sonora."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/playSound reward/emote Sam 32/message Sam \"Sam não consegue parar de rir!\"",
+            "Text": "Esse filme é hilário! Como eles pensam nessas coisas?$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*psst*... Não conte para ninguém, mas eu uso as mesmas meias que o Wumbus."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Então você gosta de filmes de terror, ein? Estou um pouco surpreso!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito legal! Normalmente eu não fico com medo em filmes, mas esse me deixou um pouco... Acho que não vou trazer o Vincent para ver esse filme."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, obrigado por me convidar, @... É muito legal que temos um cinema agora."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso não foi ruim! Talvez eu traga o Vincent para assistir."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É um filme antigo com muito diálogo, certo? Hmm... $s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message Sam \"Sam está jogando no seu video game portátil.\"",
+            "Text": "Huh? Oh! É... O filme é... interessante...$10"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É... Uh... Aquele personagem era interessante... e, um... heh...$10"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Vincent",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou muito animado! Minha mãe disse que eu posso comer doce!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Vincent/pause 400/playSound reward/message \"Vincent está se divertindo!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito legal! Eu quero ir ver de novo!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "M... Mas... Esse filme é para gente grande, não é?$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"Vincent está inquieto em seu assento.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi chato... Eu não entendi nada.$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Kent",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Obrigado por me convidar ao cinema, @. Não é fácil me ajustar à vida normal, mas você me ajudou a me sentir bem vindo."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Kent 32/message \"Kent está com um raro sorriso em seu rosto.\"",
+            "Text": "Isso é ótimo... me faz lembrar de tempos mais simples...$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi divertido. Quando você está focado em um filme, todos os seus problemas e preocupações desaparecem."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não tenho certeza sobre esse filme..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Kent 28/message \"Kent está suando frio...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi difícil para mim. Ainda assim, obrigado por me convidar."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Clint",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme é romântico, certo? *suspira*$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "guyEnters",
+            "Script": "/emote Clint 12/message \"Clint está fazendo uma cara feia.\"",
+            "Text": "Por que ela gostaria DAQUELE cara? Totalmente surreal se você me perguntar...$3"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme é triste...$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Acho que é a 'noite dos garotos', né? Isso quer dizer que eu tenho que comprar a minha própria comida?^Oh... É... nós estamos em um encontro, então?$4"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Clint está bebendo de seu cantil.\"",
+            "Text": "É só... *soluço*... Joja-Cola.$h^*sussurra*...Se você estiver, hm... cansada... você pode colocar a sua cabeça no... meu ombro. Heh... ou não!$4"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei... isso foi divertido... certo?$h"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Emily",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu comi muito amendoim para me preparar para esse filme... comida para o cérebro!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu me sinto mais inteligente do que era antes... você também?"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Quando eu vi o poster desse filme, eu senti uma sensação muito positiva no topo da minha cabeça.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme foi bem espiritual, de certa forma... você não concorda? Eu amei!$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou feliz de ver um filme com você! Eu costumo me perder totalmente na tela."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu me sinto positiva depois desse filme... isso significa que foi um bom!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu normalmente vejo filmes mais positivos, então isso vai ser interessante."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Emily está sussurrando para si mesma...\"",
+            "Text": "Ioba, por favor me proteja da energia escura deste filme.$7"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Meus níveis de energia estão baixos depois disso...$3"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Haley",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Mmm... Está bem quentinho aqui. Inverno é minha época favorita para ver filmes.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito romântico."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Mmm... Está bem quentinho aqui. Inverno é minha época favorita para ver filmes.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou feliz que teve um final feliz!"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, esse é um daqueles filmes de 'fantasia'?$7"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*boceja*... O que? Oh... sobre o que era esse filme?$7"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Todo mundo está falando sobre esse filme, então eu queria ver."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Aquela última cena... o que eles queriam dizer com aquilo?"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Maru",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, @! Estou ansiosa para esse filme... Espero aprender muito!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Maru 32/playSound reward/message \"Maru está anotando!\"",
+            "Text": "Ah, realmente... isso é muito interessante!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito interessante! Eu não sabia que tanta vida poderia ser encontrada na cidade grande."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É um filme de ficção científica, certo? Uma das coisas que eu gosto de ficção científica é ver as tecnologias que eles inventam."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bem, eu nunca vi nada como *aquilo* no meu telescópio... mas foi muito legal!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu gosto muito de ir ao cinema, até se o filme for ruim!$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Essa foi uma escolha interessante, para a cena final. O que você acha que eles queriam dizer com isso?"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sebastian",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei. Ouvi falar que esse filme é bem macabro... Estou ansioso.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Sebastian 32/message \"Sebastian tem um sorriso em seu rosto.\"",
+            "Text": "Esta cinematografia é incrível."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Melhor filme que eu vi em um bom tempo... Como será que fizeram aqueles efeitos especiais?$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "... O poster parece legal, então tô dentro."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não foi o melhor filme, mas eu me diverti um pouco... obrigado por me convidar."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Espero que seja curto..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Deve ser legal para quem curte, mas não foi para mim."
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Robin",
+    "Reactions": [
+      {
+        "Tag": "action",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou me sentindo para baixo ultimamente, então um filme cheio de ação é o que eu preciso."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou tão animada agora! Isso foi ótimo.$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não sei sobre o que esse filme é, mas eu não ligo! É bom sair de casa."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito divertido, @. Fico feliz em estar aqui."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Demetrius",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Um pequeno passeio na neve realmente dá uma animada."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "zuzucityexpress_mind_heart",
+            "Script": "/message \"Demetrius está franzindo a testa.\"",
+            "Text": "Desejos do coração...? Oh! Você quer dizer 'níveis elevados de ocitonica no sistema límbico'."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A arte do cinema evoluiu muito desde os velho tempos, não é?"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse filme aparentemente se passa em uma sociedade 'futurística'... vai ser interessante ver como ela é!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ótimo filme... mas será que realmente existe vida fora do nosso planeta?"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Esse aqui é bem o meu tipo... já sei que vou adorar.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Demetrius 8/message Demetrius \"Demetrius está coçando o queixo...\"",
+            "Text": "Tecnicamente, isso não está correto...$3"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bem, eles definitivamente enfeitaram algumas coisas, mas a maior parte estava certa! De qualquer jeito, eu me diverti."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu li sobre esse filme no jornal... não parece o meu tipo. Mas eu vou dar um chance."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Absurdo! Isso é completamente não científico!$4"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Até se um filme for ruim, é interessante analisá-lo."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hmm... Que aspecto da motivação humana é satisfeito pela narrativa deste filme?$3"
+          }
+        },
+        "ID": "reaction_3"
+      }
+    ]
+  },
+  {
+    "NPCName": "Linus",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu me sinto deslocado aqui... Espero que não esteja atrapalhando ninguém.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Linus 28/message \"Linus está olhando para o chão...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Por que olhar para a tela se você pode experenciar essas coisas por conta própria?$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu me sinto deslocado aqui... Espero que não esteja atrapalhando ninguém.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Linus 28/message \"Linus está olhando para o chão...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não estou acostumado com tanta estimulação... desculpe se eu fui um convidado desapontante, @. Mas agradeço por me convidar!"
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Dwarf",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, wow! Um palácio construído só para o entretenimento!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Anão parece estar em um transe profundo...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não entendi nada, mas as luzes piscando eram incríveis!"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Marnie",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu sei que vou adorar esse filme! Muito obrigada por ter me convidado, @.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, ainda bem que a família sobreviveu no final. E as vacas também!$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "É muito fácil me agradar com filmes... Eu gosto de tudo!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu me diverti, @! Obrigada por pensar em mim."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Shane",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Uh... É, acho que isso vai ser bom. *cheira* *cheira* ... uma comida deve ajudar."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "",
+            "Text": "Estou torcendo para o vilão... *urp*"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ok, eu admito... eu achei muito bom."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh. Eu estou bem animado para ver esse aqui..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Shane está tentando não sorrir.\"",
+            "Text": "Ok, esse é bom...$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Quando você está assistindo um bom filme, você consegue esquecer de tudo... Isso é um presente."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Uh... É, acho que isso vai ser bom. *cheira* *cheira* ... uma comida deve ajudar."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ok, eu admito... eu achei muito bom."
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ugh... isso vai ser difícil."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Shane 28/message \"Shane está para baixo...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Me sinto deprimido...$s"
+          }
+        },
+        "ID": "reaction_7"
+      }
+    ]
+  },
+  {
+    "NPCName": "Jas",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou muito feliz em ver um filme!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Jas/pause 400/playSound reward/message \"Jas está extática!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito divertido! Obrigado por me trazer!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso é um filme para gente grande, certo? Vou ficar bem!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Jas está balançando a cabeça.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu achei bom! Tinha... hm... ótimos 'di-á-lo-gos'! ...certo?"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu... eu não tenho certeza se posso ver isso...$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Jas 250/pause 500/shake Jas 250/pause 500/emote Jas 28/message \"Jas está tremendo.\"",
+            "Text": "Estou com medo...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*funga*...$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Leah",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ouvi dizer que tem umas belas cenas da natureza nesse filme... Estou animada para isso!$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi ótimo. Eu tenho certeza que vi minha cabana em uma das cenas aéreas do Vale do Orvalho!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "art",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou muito intrigada por esse filme... Eu adoro mistérios."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi ótimo! A narrativa foi muito solta, mas eu acho que era para comunicar com as emoções, não com o intelecto."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Não sei o que esperar desse filme, mas vou com uma mente aberta!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi simples, mas bom... É tipo o miojo do cinema."
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A julgar pelo cartaz, esse parece meio bobo."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi simples de mais, não foi?"
+          }
+        },
+        "ID": "reaction_7"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sandy",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou tão feliz de ter uma desculpa para voltar à Vila Pelicanos!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito divertido, obrigada por me convidar! É melhor eu voltar para casa logo..."
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Elliott",
+    "Reactions": [
+      {
+        "Tag": "art",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu prevejo que esta noite vai ser maravilhosa!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu sinto como se meu espírito estivesse carregado... como se a energia do filme fosse passada para mim. Incrível!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu não li nada sobre este filme... Eu quero entrar completamente 'cego'!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Muito interessante... Vou pensar sobre isso por um bom tempo."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Seria uma mentira se eu dissesse que estou ansioso para este filme...$s"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Isso foi muito mundano, você não acha?"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Willy",
+    "Reactions": [
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hehe... Eu nunca vo recusar um filme de grátis!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, isso me lembra de uma história meu pai contava..."
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Leo",
+    "Reactions": [
+      {
+        "Tag": "documentary",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou animado para ver isso... eu quero aprender tudo sobre o mundo!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Leo/pause 400/playSound reward/message \"Leo está grudado na tela!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Você viu isso? Eles mostraram as ilhas samambaia... é de onde eu vim!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou muito feliz de estar aqui. Isso é tudo muito interessante!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/pause 500/emote Leo 32/message \"Leo parece estar muito interessado no filme.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Uau... isso foi mágico!"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  }
+]

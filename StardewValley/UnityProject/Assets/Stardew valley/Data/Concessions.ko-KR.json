@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "솜사탕",
+    "Description": "설탕으로 자아낸 큰 분홍색 구름.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "자스민 차",
+    "Description": "향이 좋은 자스민 꽃으로 우려낸 녹차.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "조자 콜라",
+    "Description": "조자 기업의 대표 음료. 대형 사이즈입니다.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "새콤 슬라임",
+    "Description": "여러 가지 색의 작은 젤리 슬라임. 굉장히 신맛의 가루가 뿌려져 있습니다.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "1인용 피자",
+    "Description": "혼자서 간식으로 즐기기 적당한 사이즈의 피자.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "나초",
+    "Description": "갓 튀겨낸 또띠야 칩 위에 끈적하고 매콤한 치즈가 올려져 있습니다.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "연어 버거",
+    "Description": "살짝 구운 참깨 빵에 올린 두터운 연어 한 조각.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "아이스크림 샌드위치",
+    "Description": "초코 과자 두 조각 사이에 바닐라 아이스크림을 넣은 간식.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "팝콘",
+    "Description": "버터와 소금으로 맛을 낸 튀긴 옥수수 알맹이.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "감자튀김",
+    "Description": "감자를 얇게 잘라서 튀긴 후 소금을 친 요리.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "초콜릿 팝콘",
+    "Description": "초콜릿을 뿌린 팝콘.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "검은 감초 사탕",
+    "Description": "강렬한 향이 나는 쫄깃쫄깃한 사탕.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "스타 쿠키",
+    "Description": "무지개 설탕 가루로 장식된 별 모양의 쇼트 브레드 쿠키.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "돌사탕",
+    "Description": "영화 한편 내내 먹을 수 있는 크고 단단한 사탕입니다!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "소금을 뿌린 땅콩",
+    "Description": "고전적인 짭짤한 간식.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "후무스 스낵 모음",
+    "Description": "아삭하고 건강한 맛.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "케일 스무디",
+    "Description": "비타민과 식이섬유가 듬뿍.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "사과 조각",
+    "Description": "아삭하고 달콤한 간식.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "팡젤넬라 샐러드",
+    "Description": "빵과 토마토로 만든 여름 샐러드.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "트러플 팝콘",
+    "Description": "트러플 소금으로 맛을 낸 팝콘.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "카푸치노 무스 케이크",
+    "Description": "카푸치노 무스를 바른 작은 초콜릿 케이크.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "조자콘",
+    "Description": "조자의 옥수수로 만든 특허 식품. \"브어터 소스\"를 듬뿍 발랐습니다.",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "별방울 소르베",
+    "Description": "별방울 추출물 한 방울 덕분에 이 소르베는 대단한 별미가 됩니다.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "얼음 사탕",
+    "Description": "향이 첨가된 설탕 결정체를 막대기에 붙여둔 간식.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "In costruzione.",
+  "DismountBeforeEntering": "Smonta prima di entrare",
+  "PiecesOfHay": "Pezzi di fieno: {0}/{1}",
+  "AddedHay": "Hai aggiunto {0} pezzi di fieno al silo.",
+  "MillFull": "Non c'è più spazio",
+  "CantMill": "Non si può macinare",
+  "NeedSilo": "Silo richiesto",
+  "CantEnter": "Al momento non si entra",
+  "WrongFishType": "Quest'esemplare di {0} non vuole vivere in un Laghetto per {1}.",
+  "WrongFishTypeCoral": "Puoi mettere {0} solo in un Laghetto per {0}.",
+  "CantPutInPonds": "Un esemplare di {0} non sarebbe felice lì dentro.",
+  "NoFish": "Questo laghetto può ospitare dei pesci.",
+  "PondFull": "Questo laghetto è pieno.",
+  "Paint_Region_Roof": "Tetto",
+  "Paint_Region_Building": "Tetto"
+}

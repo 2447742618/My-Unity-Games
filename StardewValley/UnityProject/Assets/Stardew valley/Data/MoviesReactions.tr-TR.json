@@ -1,0 +1,2710 @@
+[
+  {
+    "NPCName": "Penny",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [
+          "Pam"
+        ],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Annemle filme gitmek keyfimi yerine getiriyor!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"(Pam ve Penny tüm dikkatlerini filme vermiş durumda!)\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Yeniden aile olarak bir şeyler yapabilmek harika!"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmi izlemeyi iple çekiyorum! Jas ve Vincent sürekli bu filmden bahsediyordu."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/shake Penny 3000/pause 500/message \"Penny ağlamamak için kendini zor tutuyor...\"",
+            "Text": "Ailesini öylece bırakması... Cidden çok zor olmalı...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Beni filme götürdüğün için teşekkür ederim. Çocuklara filmi anlatmak için sabırsızlanıyorum!"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, '{0}'! Güzel bir filme benziyor!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"(Penny gülümsüyor)\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bir ara çocukları da getirmeliyim!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heyecanlıyım açıkçası. Hatta tam gülme havamdayım!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Az önce yoksa...?! Ha ha ha ha!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Vay be, gülmekten karnıma ağrılar girdi...!"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Birazcık gerginim... Pek korku filmi izlemiyorum.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Penny 3000/pause 500/emote Penny 28",
+            "Text": "Ekrana bakamıyorum...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Umarım bu gece karabasan görmem!$s"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, bunu izlemeye can atıyordum!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İnanılmaz! Umarım devamını da çekerler!"
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film hakkında güzel şeyler duymuştum!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok güzeldi! Beni çağırdığın için teşekkür ederim!"
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film pek benlik değil. Yine de tarafsız yorumlamaya çalışacağım..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "..."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Seyir keyfini bozduğum için özür dilerim. Filmi pek sevemedim..."
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, '{0}'! Bunu {2} ile izlemiştim!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_9"
+      },
+      {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bunu {2} ile izlemiştim. Çok iyiydi!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_10"
+      },
+      {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım. Sanırım bunu {2} ile izlemiştim..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_11"
+      }
+    ]
+  },
+  {
+    "NPCName": "Pam",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Merhaba evlat. Davet için teşekkürler."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh, fena değildi!"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Krobus",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Pişt... Benim, Krobus. Beni tanıyabildin mi?$8#$b#Birisi yanaşırsa falan sen konuşursun, tamam mı?$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "mysterium_shadow",
+            "Script": "/message \"Krobus'u sıcak basıyor...\"",
+            "Text": "Tüm gölgelik soy böyle değil aslında!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bir şeyler giymeye alışkın değilim... Giysilerin içinde rahat edemiyorum!$8"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*boğazını temizler*... Merhaba! Aynı sizler gibi... görsel eğlence salonuna girip patlatılmış mısır yiyeceğim için heyecanlıyım.!$8#$b#*fısıldar*... Nasıl gidiyorum?$8"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İnsanlar saatler boyunca yanıp sönen ışıklara bakmaktan zevk alıyor demek. Çok ilginç...$8"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Wizard",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu akşam bu binaya sinmiş gizem bir güç olduğunu hissediyorum..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Büyücü'nün gözleri parıldıyor...\"",
+            "Text": "Düşünüyorum da... Bu alanda çalışmayan kimse izlediğimiz şeylerin gerçek görüntüler olduğunu anlayamaz!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Batıni gizemlerin farkında olanlar için bu çok önemlidir..."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Beni *bunun* için mi çalışmalarımdan alıkoydun?"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "George",
+    "Reactions": [
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Gazete bu filme '5 yıldız' vermiş. Nasılmış görmek istiyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh! Bayağı iyiydi aslında! Davet için teşekkür ederim."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım... Filmler eskisi gibi değil tabi... En azından görüntünün iyi olmasını umuyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh. Günümüz filmlerine kıyasla gayet iyiydi.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım... Film sırasında uyurum herhalde."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Utanç vericiydi! Son zamanlarda 'film' niyetine çöp yapar oldular... "
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Alex",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film için komik diyorlar. Merakla bekliyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh! Filmi çok beğendim. Yalnız pişiler acayip kötüydü be."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bir süredir buna gitmek istiyordum. Bilet için teşekkür ederim, @!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Harikaydı! Bacaklarım hala daha heyecandan titriyor."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmi izlemek için sabırsızlanıyorum! Atıştırmalık bir şeyler almalıyım..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok iyi filmdi. Çağırdığın için teşekkürler, @."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Tam ineklere yönelik bir filme benziyor. Yine de şans vereceğim."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Film mi sıkıcıydı, yoksa ben mi anlayacak kadar zeki değildim bilemiyorum...$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Evelyn",
+    "Reactions": [
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Yirmi yıldır sinemaya gitmedim. Salonun açılması iyi oldu.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Beğendim... artık '{2}' neden klasik sayılıyor biliyoruz."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Yaşlı bir hanımı film izlemeye davet etmen çok hoş.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hala nezih filmler çekmelerine sevindim... Çok güzeldi!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Korku filmlerini oldum olası sevmem. Ancak, açık görüşlü olmaya gayret edeceğim."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Evelyn 3000/pause 500/message \"Evelyn gözlerini kapatıyor.\"",
+            "Text": "Daha bitmedi mi?$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sürekli gözlerimi kapatmak zorunda kaldım...$s"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Pierre",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eski bilim kurguları izleyerek büyümüş biri olarak yeni filmleri izlemek için can atıyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah! Beklediğim gibi değildi ama beğendim. Vumbus'u gerçekten anlayabiliyorum.$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Biliyorsun ki sürekli çalışıyorum. Böyle bir kaçamak benim için iyi olacak."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fena değildi! Acaba dükkanda satabileceğim ticari mallar üretmişler midir..."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Abigail",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çayır Kralı'nın filmini yaptıklarını inanamıyorum... Umarım güzeldir!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Dinlesene... Müzik çok tanıdık geliyor.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Her ne kadar oyunculuk rezalet olsa da keyif aldım.$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "'Canlı dünyamızı keşfetmek' için sabırsızlanıyorum... Ya sen?$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bak bunu bilmiyordum!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İlginç bir gösterimdi. En çok rakunları sevdim... Çok tatlıydılar!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Korku filmlerine bayılıyorum... Umarım gerçekten korkunçtur!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Abigail 3000/pause 500/message \"Abigail kıkırdıyor!\"",
+            "Text": "Haha! Hiç korkmasam da beğendim.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok yapmacıktı. Yine de gideri var.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hey! Beni çağırdığın için teşekkür ederim. Sinemaya gitmeye bayılıyorum.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İlginçti... Acaba aynı durumda ben olsam ne yapardım?"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fragmandan anladığım kadarıyla tam anlamıyla uyumalık bir film...$6"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İlgi çekici bir şey olursa beni uyandırırsın.$6"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*esner*... Sence de çok sıkıcı değil miydi?$6"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Caroline",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Vahşi batı filmlerine her daim bayılmışımdır. Dolayısıyla bu filmi izlemek için sabırsızlanıyorum!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Harikaydı! Kostümler falan çok otantikti."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Film çok güzel duruyor. Keşke biri davet etse de gitsem diyordum!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Umarım küçük kızın başına kötü bir şey gelmez...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok hoştu. Davet ettiğin için teşekkür ederim!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "'{0}'... Filmin konusunu bilmiyorum! Umarım şiddet içerikli bir şeyler yoktur."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fena değildi! Eve gidince Abigail'e filmi soracağım. Eminim izlemiştir.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İçimde bu filmin kötü olduğuna dair bir his var... Yine de izlemek istiyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Saçmaydı... Yerimde Pierre olsa kesin bayılırdı.$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Harvey",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Gerginim... *yutkunur*"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Harvey 3000/pause 500/message \"Harvey titriyor!\"",
+            "Text": "Korkuyorum!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Yükseklikten korkarım. Yüksekte geçen sahnelerde aklımı kaybediyordum... O sahneler haricinde genel olarak güzeldi.$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "action",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Zuzu Şehri gazetelerinden birinde bu filmle ilgili iyi yorumlar okumuştum..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bence düşündürücü. Sence?"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Olağanüstüydü! Benim bu filme davet ettiğin için çok çok teşekkür ederim, @.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Pek film izlemem. Bu filme iyi diyorlar. Sence nasıldır?"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İlginçti! {0} bir süre aklımdan çıkmayacak."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film bende çarpıcı bir etki bırakabilir...$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Harvey 3000/pause 500/message \"Harvey'nin kan basıncı artıyor!\"",
+            "Text": "Galiba bayılacağım...$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmi izlederken vücudum alev aldı...$s"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Gus",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fragmanını televizyonda görmüştüm. Hoşuma gitmişti doğrusu!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İşin erbabı olarak glüten bazlı yemeklere duydukları saplantı acayip iyiydi diyebilirim.$h"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İnsan '{0}' filmini izlemeden henüz tatilin tadını çıkarmamıştır diyorlar!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İç açıcıydı... Efsanevi meyve çok lezzetli duruyordu. Keşke bir gün tadabilsem."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bunun 'alışılmamık' bir yapım olduğunu söylüyorlar... Kötü bir film mi yani?$s"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmin olaydı neydi ki? Anlamadım. Belki de film için fazla yaşlıyımdır.$s"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*burnunu çeker* *burnunu çeker* ... Güzel bir koku alıyorum..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hiç fena değil. Geldiğime pişman olmadım!"
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Lewis",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çocukken kovboy filmleri izlerdim... Hala kovboy filmi çekmelerine sevindim!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "/message \"Başkan Lewis düşüncelere dalmış gibi duruyor...\"",
+            "Text": "(Acaba hangi bıyık şekillendiriciyi kullanıyor?)"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh, çok güzeldi! Kafamı açtı diyebilirim...$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filme gitmemi bizzat Vali Bey önerdi!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fantastik! Yıldızçiyi Vadisi'ni çok güzel yansıtmamışlar mı? Keşke Pelikan Kasabası'nı da koysalarmış...$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Başkan olarak yurttaşlarımın hangi tür filmler izlediğini bilmeliyim. Çocuklarımızın hassas zihinleri için endişeleniyorum!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah! Hiç de fena değildi... Bu filme 'Başkanlık Onayı' veriyorum.$h"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım... Bugünlerde gençlerin neler izlediğini görmek ilginç olabilir..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah... Filmde verilmek istenen mesaj halkımız için iyi miydi diye düşünüyorum."
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Jodi",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmi uzun zaman önce izlemiştim. Çok romantik bir film!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Yalnızlık... Filmin ana fikrini içimde hissettim. Çağırdığın için teşekkür ederim!"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Umarım koltuklar rahattır. Bütün gün ayaktaydım!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Pek film kurdu sayılmam... ama güzel zaman geçirdim! Teşekkürler @."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sam",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Vay anasını. Çok heyecanlıyım! Filmde kullanılan müziklerin harika olduğunu duymuştum."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/playSound reward/emote Sam 32/message Sam \"Sam kahkahaya boğuluyor!\"",
+            "Text": "Film çok gülünçtü! Böyle senaryoları nasıl yazıyorlar?$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*fısıldar*... Kimseye söyleme ama Vumbus ile aynı çorapları giyiyoruz."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Demek korku filmlerini seviyorsun. Şaşırdım doğrusu!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Yalnız film bayağı iyiydi! Genelde filmler beni korkutmayı başaramaz ama bunda hafiften tırstım... Vincent'ı bu filme götüreceğimi sanmıyorum."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Davet için teşekkür ederim, @... Kasabaya sinema salonu açılması çok iyi oldu."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fena değildi! Bu filme Vincent'ı götürebilirim aslında."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Senaryonun boş beleş konuşmalarla dolu olduğu eski bir film. Hım.. $s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message Sam \"Sam, avuç içi oyun konsolu ile oynuyor.\"",
+            "Text": "Efendim? Ah! Şey... Film... çok ilginç...$10"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Aynen... Şey... Şu karakter yok mu ya... Hatta şey... Heh...$10"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Vincent",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok heyecanlıyım! Annem şeker yiyebileceğimi söyledi!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Vincent/pause 400/playSound reward/message \"Vincent harika zaman geçiriyor!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok eğlenceliydi! Tekrar izlemek istiyorum!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A... Ama... Bu film yetişkinler için değil mi?$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"Vincent sıkıntıdan yerinde duramıyor.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok sıkıcıydı... Hiçbir şey anlamadım.$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Kent",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "@, sinemaya çağırdığın için teşekkür ederim. Sivil hayata ayak uydurmak hiç kolay değilmiş. Bana çok yardımcı oldun."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Kent 32/message \"Kent nadiren de olsa gülümsüyor.\"",
+            "Text": "Çok güzelmiş... Bana eski güzel günleri hatırlatıyor...$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Güzel filmdi. İnsan filme dalınca tüm dertleri tasaları uçup gidiyor."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film için ne diyeceğimi bilmiyorum..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Kent 28/message \"Kent soğuk terler döküyor...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmi izlerken zorlandım doğrusu. Yine de çağırdığın için sağolasın."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Clint",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu, romantik bir filmdi, değil mi? *iç çeker*$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "guyEnters",
+            "Script": "/emote Clint 12/message \"Clint somurtuyor.\"",
+            "Text": "Neden ŞU heriften hoşlanıyor ki? Bence hiç gerçekçi değil...$3"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İç karartıcı bir filmdi...$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sanırım 'erkek erkeğe' takılmak istiyorsun. Atıştırmalık bir şeyler alayım mı?^Ah... B... Biz şimdi randevuya mı çıkmış olduk?$4"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Clint ne idüğü belli olmayan bir şişeyi yudumluyur.\"",
+            "Text": "Bu bildiğimiz... *hıçkırır*... Joja Kola.$h^*fısıldar*... Eğer, şey... yorulduysan... başını omzuma... dayayabilirsin. Heh... dayamayadabilirsin!$4"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hey... bayağı eğlenceliydi... değil mi?$h"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Emily",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filme hazırlık niyetine bir avuç dolusu ceviz yedim... Beynimi besledim!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Düne kıyasla daha zeki olduğumu hissediyorum... Ya sen?"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Afişini gördüğümden beri bu film hakkında olumlu şeyler düşünüyorum.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmi izleyince içimde ruhani bir his oluştu. Sende de oluştu mu? Filmi çok beğendim!$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Seninle filme gittiğim için mutluyum! Birazdan ekrana dalıp gideceğim."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İçimde olumlu hisler oluşturdu... Güzel bir filmdi yani!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Genelde daha pozitif duran filmlere giderim. Bu seferki ilginç bir deneyim olacak."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Emily kendi kendine konuşuyor...\"",
+            "Text": "Yoba, lütfen beni bu filmin kötü enerjisinden koru.$7"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film enerjimi tüketti...$3"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Haley",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım... Burası ne kadar sıcakmış. Kış geldi mi sinemadan çıkmayacaksın.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok romantikti."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım... Burası ne kadar sıcakmış. Kışın sinemaya gitmeye bayılıyorum.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sonunun iyi olmasına sevindim!"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, bu şu 'fantezi' filmlerinden mi?$7"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*esner*... Ne? Ah... filmin konusu ne demiştin?$7"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Herkes bu filmi konuşuyor. Gitmek için sabırsızlanıyordum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Şu son sahnede vermek istedikleri mesaj neydi?"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Maru",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Merhaba, @! Bu filmi iple çekiyordum... Umarım yeni bir sürü şey öğreniriz!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Maru 32/playSound reward/message \"Maru not tutuyor!\"",
+            "Text": "Şimdi anladım bak... Çok ilginç!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Gerçekten ilgi çekici bir filmdi! Koca bir şehirde böyle bir yaşantının olacağını hiç düşünmezdim."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bilim kurgu filmiydi, değil mi? Bilim kurgu filmlerinin en sevdiğim yanı, gelecekte sahip olacağımız garip teknolojileri göstermeleri."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eh, teleskopumla bakarken hiç *böyle* bir şey görmemiştim... Yine de mükemmeldi!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Film kötü olsa dahi sinemaya gitmeye bayılıyorum!$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Son sahne için gerçekten ilginç bir seçim olmuş. Sence vermek istedikleri mesaj neydi?"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sebastian",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Selam. Filmin korkunç olduğunu duydum... Sabırsızlıkla izlemeyi bekliyorum.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Sebastian 32/message \"Sebastian sırıtıyor.\"",
+            "Text": "Çok güzel çekmişler."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Son zamanlarda gördüğüm en iyi filmdi... Özel efektlerin bazılarını nasıl yaptıklarını merak ediyorum.$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*omzunu silker*... Afiş güzel olmuş. İzleyelim bakalım."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Gördüğüm en iyi film değildi ama keyifli zaman geçirdim... Davet için teşekkürler."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Umarım çabucak biter..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Muhtemelen hedef kitle beğenecektir ama hiç mi hiç benlik değil."
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Robin",
+    "Reactions": [
+      {
+        "Tag": "action",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bir süredir çok durgunum. Bu aksiyon filmi tam da ihtiyacım olan şey olabilir."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Coşku doluyum! Mükemmel bir filmdi.$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmin konusunu anlamadım. Pek de umrumda değil açıkçası! Evden çıkabilmiş olmak bana yetiyor."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "@, çok eğlendim. Bu filme gelmemize sevindim."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Demetrius",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Karda kısa bir gezintiye çıkmak kan akışını ciddi ölçüde hızlandırır."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "zuzucityexpress_mind_heart",
+            "Script": "/message \"Demetrius kaşını kaşıyor.\"",
+            "Text": "Kalpte duyulan özlem mi...? Ah! 'Limbik sistemde yüksek seviyede oksitosin bulunması' demek istiyor yani."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Film çekmek sanatı ne kadar da gelişmiş. Sence de öyle değil mi?"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film 'gelecekte' geçiyormuş... Geleceği görmek ilginç olacak!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Harika filmdi... Acaba gezegenimizin ötesinde bir hayatımız olacak mı?"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film benim için biçilmiş kaftan... Filme bayılacağımı sen de biliyorsun.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Demetrius 8/message Demetrius \"Demetrius çenesini kaşıyor...\"",
+            "Text": "Teknik olarak bu doğru değil...$3"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bazı kısımları uydurmuşlar. Ancak, anlattıkları şeyleri çoğun doğru! Güzel vakit geçirdiğimi söyleyebilirim."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Gazetede bu film hakkında bir yazı çıkmıştı... Pek benlik durmuyor. İzleyip göreceğiz."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Saçmalık! Anlatılanların bilimle en ufak alakası yoktu!$4"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Film kötü bile olsa değerlendirmek istiyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hım... Bu filmdeki anlatım acaba insan motivasyonunun hangi yönünü tatmin ediyor olabilir?$3"
+          }
+        },
+        "ID": "reaction_3"
+      }
+    ]
+  },
+  {
+    "NPCName": "Linus",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Buraya ait değilim... Umarım kimseye rahatsızlık vermiyorumdur.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Linus 28/message \"Linus yere bakıyor...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Gösterilen şeylerin aynısını birebir deneyimlemek varken neden sadece ekrana bakayım ki?$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Buraya ait değilim... Umarım kimseye rahatsızlık vermiyorumdur.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Linus 28/message \"Linus yere bakıyor...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hiç bu kadar teşvik edilmemiştim... Hayal kırıklığı yarattıysam özür dilerim, @. Beni davet ettiğin için sana minnet duyuyorum!"
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Dwarf",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Vay canına! Tamamıyla eğlence amaçlı kurulmuş bir salon!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Cüce kendinden geçmiş gibi duruyor...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hiçbir şey anlamadım. Parlayıp sönen ışıklar gözlerimi bağladı!"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Marnie",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmi seveceğime eminim! Beni çağırman çok hoş, @.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, hem ailenin hem de ineklerin durumunun iyi olmasına sevindim!$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filmler konusunda benden rahatı yoktur... Her türlü filme bayılıyorum!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok güzel vakit geçirdim, @! Beni düşündüğün için teşekkür ederim."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Shane",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Peh... Herhalde iyi bir filmdir. *uyuklar* *uyuklar* ... Atıştırmalık almam gerekebilir."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "",
+            "Text": "Ben kötü karakterin tarafındayım... *karnı ağrır*"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Tamam, itiraf ediyorum... Filmin güzel olduğunu düşünüyorum."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh. Bu film ilgimi çekiyor..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Shane gülümsememeye çalışıyor.\"",
+            "Text": "İyiymiş...$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "İzlediğin film hoşuna gidince ne var ne yok her şeyi unutuyorsun... Filmler hediyeden farksız."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Peh... İyi filmdir herhalde. *uyuklar* *uyuklar* ... Atıştırmalık bununla iyi gider."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Kabul ediyorum... Güzel filmdi şimdi."
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Öğk... Acı dolu bir seans olacak."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Shane 28/message \"Shane yere çökmüş halde bekliyor...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Moralim bozuldu...$s"
+          }
+        },
+        "ID": "reaction_7"
+      }
+    ]
+  },
+  {
+    "NPCName": "Jas",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Filme gitmek istiyorum!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Jas/pause 400/playSound reward/message \"Jas çok mutlu!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok keyifliydi! Beni getirdiğin için teşekkür ederim!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu yetişkin filmlerinden, değil mi? Bana bir şey olmaz!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Jas kafasını çevirip gözünü kapatıyor.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Güzeldi bence! Şey vardı... filmde... iyi 'di-ya-log-lar'! ...değil mi?"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "B... Bunu izlemeli miyim bilmiyorum...$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Jas 250/pause 500/shake Jas 250/pause 500/emote Jas 28/message \"Jas titriyor.\"",
+            "Text": "Korkuyorum...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "*uyuklar*...$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Leah",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmde güzel doğa görüntüleri kullanıldığını duymuştum... İzlemek için sabırsızlanıyorum.!$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Mükemmeldi. Yıldızçiyi Vadisi'nin uçaktan çekilen görüntülerinden birinde barakamı bile gördüm!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "art",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film epey ilgimi çekti... Gizem gördüm mü dayanamıyorum."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Harikaydı! Anlatım boğucu değildi. Sanırım akla değil de duygulara hitap etmeye çalışmışlar."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmden beklentim ne olmalı bilmiyorum. Ön yargılı davranmayacağım!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok basitti. İyiydi... İnsanlara kendilerini iyi hissetmeleri için sunulmuş gibiydi."
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Afişten anladığım kadarıyla çok sıradan bir film olacak."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sence de filmin her yanından kültürsüzlük akmıyor muydu?"
+          }
+        },
+        "ID": "reaction_7"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sandy",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Pelikan Kasabası'na gelmek için bahanem oldu!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çağırdığın için teşekkürler. Çok eğlendim! Fakat, bir an önce yola çıkmalıyım..."
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Elliott",
+    "Reactions": [
+      {
+        "Tag": "art",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Mükemmel bir film izleyeceğimizi düşünüyorum!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ruhum heyecandan yerinde duramıyor... Filmdeki enerji bana geçmiş gibiyim. İnanılmazdı!"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu film hakkında hiç bir şey bilmiyorum... 'Bilgi almadan' izlemek istiyordum zaten!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Çok ilginçti... Bir süre film üzerine düşüneceğim."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmi dört gözle bekliyordum desem yalan söylemiş olurum...$s"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sence de aşırı sıradan değil miydi?"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Willy",
+    "Reactions": [
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hehe... Beleş film izleme fırsatını geri çevirmem!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah! Bu film bana babamın anlattığı eski öyküleri hatırlattı..."
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Leo",
+    "Reactions": [
+      {
+        "Tag": "documentary",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Bu filmi görmek için sabırsızlanıyorum... Dünyadaki her şeyi öğrenmek istiyorum!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Leo/pause 400/playSound reward/message \"Leo gözünü ekrandan ayırmıyor!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sen de gördün mü? Eğreltiotu Adaları'nı gösterdiler... Evimi gördüm!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Burada olduğum için aşırı mutluyum. Her şey çok ilginç!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/pause 500/emote Leo 32/message \"Leo filmi merakla izliyor.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Vay canına... Bu şey büyü gibiydi!"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  }
+]

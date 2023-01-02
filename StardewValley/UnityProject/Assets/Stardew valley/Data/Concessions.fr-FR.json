@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Barbe à papa",
+    "Description": "Un gros nuage rose de sucre filé.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Thé au Jasmin",
+    "Description": "Thé vert parfumé aux fleurs de jasmin.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Cola Joja",
+    "Description": "Une très grande tasse du produit phare de Joja.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Bonbons slimes acidulés",
+    "Description": "Petits slimes gélifiés de couleurs assorties. Ils sont saupoudrés d’une poudre très acide.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Pizza individuel",
+    "Description": "Une petite pizza pour une petite collation.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Nachos",
+    "Description": "Fromage gluant et épicé sur des chips tortilla fraîchement frites.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Hamburger au saumon",
+    "Description": "Une épaisse tranche de saumon sur un pain aux graines de sésame légèrement grillé.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Sandwich à la crème glacée",
+    "Description": "Glace à la vanille en sandwich entre deux biscuits au chocolat.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Pop-corn",
+    "Description": "Grains de maïs sautés, légèrement saupoudrés de sel et recouverts de beurre.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Frites",
+    "Description": "De fines tranches de pomme de terre frites et légèrement salées.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Pop-corn au chocolat",
+    "Description": "Du pop-corn normal... mais enrobé de chocolat.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Réglisse ",
+    "Description": "Un bonbon à mâcher au goût intense et amer.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Cookie en forme d'étoile",
+    "Description": "Un biscuit sablé en forme d’étoile, saupoudré de vermicelles arc-en-ciel.\n",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Berlingot",
+    "Description": "C’est un gros bonbon dur qui peut durer tout le film !\n",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Cacahuètes salées\n",
+    "Description": "Une petite gourmandise classique salée.\n",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Encas de houmous\n",
+    "Description": "C’est croquant et sain.\n",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Smoothie de chou frisé",
+    "Description": "C’est plein de vitamines et de fibres.\n",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Tranches de pommes",
+    "Description": "Petites tranches de pommes croquantes et sucrées.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Salade panzanella ",
+    "Description": "Une salade d'été à base de pain et de tomates.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Pop-corn à la Truffe",
+    "Description": "Maïs soufflé d’une recette de famille, saupoudré au sel de truffe.\n",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Gâteau à la mousse de cappuccino",
+    "Description": "Un petit gâteau au chocolat glacé avec une mousse de cappuccino.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "Pop-corn Joja",
+    "Description": "Encas à base de maïs brevetée de Joja, recouvert d’une grosse dose de \"sauce au beurre\".\n",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Sorbet d’essence d'étoile\n",
+    "Description": "Une seule goutte d’essence d’étoile transforme ce sorbet en une gourmandise extraordinaire.\n",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Sucre d'orge",
+    "Description": "Cristaux de sucre aromatisés sur un bâton très pratique.\n",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

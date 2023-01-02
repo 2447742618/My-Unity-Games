@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "En construction.",
+  "DismountBeforeEntering": "Mettre pied à terre avant d’entrer",
+  "PiecesOfHay": "Meules de foin : {0}/{1}",
+  "AddedHay": "{0} meules de foin ajoutées dans le silo.",
+  "MillFull": "Plus d'espace libre",
+  "CantMill": "Ne peut pas être moulu",
+  "NeedSilo": "Silo requis",
+  "CantEnter": "Impossible d’entrer pour l'instant",
+  "WrongFishType": "{0} ne veut pas habiter dans l’étang {1}.",
+  "WrongFishTypeCoral": "{0} ne peut pas vivre dans l’étang {0}.",
+  "CantPutInPonds": "{0} ne serait pas heureux ici.",
+  "NoFish": "Des poissons peuvent vivre dans cet étang.",
+  "PondFull": "Cet étang est plein.",
+  "Paint_Region_Roof": "Toit",
+  "Paint_Region_Building": "Toit"
+}

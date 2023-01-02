@@ -1,0 +1,966 @@
+{
+  "spring_movie_0": {
+    "ID": null,
+    "SheetIndex": 0,
+    "Title": "Le courageux petit arbre",
+    "Description": "Un film d’animation familiale sur l’aventure magique d’une petite pousse en quête de devenir un arbre !",
+    "Tags": [
+      "family",
+      "comedy"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "sweet",
+        "Sound": "",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "Le courageux petit arbre",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le brave petit arbre part de sa maison. Il hésite un instant et se retourne pour regarder une dernière fois sa maison, sachant qu’il ne reviendra pas avant longtemps...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_1"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound dustMeep/pause 200/playSound dustMeep/pause 300/playSound dustMeep/pause 100/playSound dustMeep/pause 200/playSound dustMeep",
+        "Text": "Les autres jeunes arbres de son bosquet se sont rassemblés à la sortie du village, agitant leurs brindilles avec excitation pour lui dire au revoir...!",
+        "Shake": false,
+        "ResponsePoint": "sprout_leave",
+        "ID": "spring0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Oh, non ! Tout à coup, il commence à pleuvoir ! Le petit arbre se met à courir aussi vite que possible alors que de gros nuages orageux se profilent au-dessus de sa tête...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "thunder",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "Craignant pour sa vie et démoralisé par ces trombes d’eau, le courageux petit arbre commence à perdre espoir...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_4"
+      },
+      {
+        "Image": 4,
+        "Music": "echos",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "... Mais qu’est-ce que c’est ? Le petit arbre sent un picotement sur sa tête...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound coin/pause 1000/message \"Peut-être avait-il juste besoin d’un peu de pluie pour commencer à grandir et devenir un arbre !\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 2000,
+        "Script": "",
+        "Text": "Adieu, petite pousse !",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_7"
+      }
+    ]
+  },
+  "fall_movie_0": {
+    "ID": null,
+    "SheetIndex": 1,
+    "Title": "Mystèrium",
+    "Description": "Regarde derrière le voile de minuit... Il faut que tu en fasses l’expérience pour commencer à y croire !",
+    "Tags": [
+      "horror",
+      "art"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Lava_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "\"Mystèrium\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1500",
+        "Text": "Une vague silhouette dans le noir...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_1"
+      },
+      {
+        "Image": -1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 2 1000/playSound batScreech",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_2"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le vide désolé et inconnu de l’espace... où des horreurs indicibles attendent.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 4 400/playSound serpentHit/pause 2000/specificTemporarySprite movieFrame 1 4 150/playSound shadowHit/pause 300/specificTemporarySprite movieFrame 1 4 400/playSound serpentDie",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_5"
+      },
+      {
+        "Image": -1,
+        "Music": "spring_night_ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieTheater_screen 1 6 false/pause 3000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 3000",
+        "Text": "Une variété de scènes décousues et surnaturelles se déroulent...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "spirits_eve",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound skeletonDie/pause 6000",
+        "Text": "",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall0_8"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowpeep",
+        "Text": "\"Vous DEVEZ dire à vos amis de regarder MYSTÈRIUM ce soir...\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowDie",
+        "Text": "\"...Sinon, je te rendrai visite dans ton sommeil !\"",
+        "Shake": true,
+        "ResponsePoint": "mysterium_shadow",
+        "ID": "fall0_10"
+      }
+    ]
+  },
+  "summer_movie_0": {
+    "ID": null,
+    "SheetIndex": 2,
+    "Title": "L’aventure du roi de la prairie : Le Film",
+    "Description": "Le jeu vidéo acclamé arrive sur grand écran !",
+    "Tags": [
+      "action"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Cowboy_OVERWORLD",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "\"L’aventure du roi de la prairie : Le Film\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Sur le vieux sentier poussiéreux, nous retrouvons le roi de la prairie surveillant un convoi chargé de trésors précieux.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Mais, à l’insu de notre héros, un hors-la-loi malfaisant l’observe depuis une falaise non loin de là...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_2"
+      },
+      {
+        "Image": 3,
+        "Music": "cowboy_outlawsong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Enfin, je vais me débarrasser de ce shérif prétentieux et m’enfuir avec le trésor... je le mérite après tout !\"",
+        "Shake": false,
+        "ResponsePoint": "PK_villain",
+        "ID": "summer0_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 400/playSound thunder_small",
+        "Text": "\"Oups ! On dirait que cette avalanche se dirige directement vers le convoi.\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le roi de la prairie entend un léger grondement au loin... Regarde !",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"À la vitesse de l’éclair, il tire un coup de feu.\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"Mais qu’est-ce que c’est ? Il y a de l’eau partout !\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "none",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
+        "Text": "Il a encore réussi ! La boue épaisse arrête l’avalanche dans sa course.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_8"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "Cowboy_Secret",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le convoi est en sécurité.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "Cowboy_singing",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Fin.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_10"
+      }
+    ]
+  },
+  "summer_movie_1": {
+    "ID": null,
+    "SheetIndex": 3,
+    "Title": "Wumbus",
+    "Description": "Une comédie de science-fiction absurde centrée sur la vie et l’époque d’un garçon bosselé d’une autre planète.",
+    "Tags": [
+      "sci-fi",
+      "comedy",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_wumbus",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Wumbus\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Wumbus, toujours à l’aise, s’étire et profite de la chaleur du soleil de sa planète.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Son fidèle serviteur, Nutri-Bot, lui fournit en continu des rondelles de gluten frites avec de la \"sauce rouge\".",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Wumbus essaie de faire en sorte que son neveu, Rossel, s’intéresse un peu plus à la culture et aux affaires du système stellaire, mais Rossel n’est pas intéressé, ni impressionné.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_3"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Pouah !\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "C’est un film humoristique dans le monde étrange de Wumbus, un monde où la technologie et la société ont \"évolué\" à l'extrême.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound phone/pause 300",
+        "Text": "De nombreuses scènes utilisent l’humour pour se moquer de l’absurdité de la vie moderne.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Malgré des possibilités de divertissement quasi infinies, Wumbus et son groupe d’amis aiment se retrouver pour un délicieux repas de \"pizza\" (composée de 100% de gluten).",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_7"
+      }
+    ]
+  },
+  "winter_movie_1": {
+    "ID": null,
+    "SheetIndex": 4,
+    "Title": "Le Zuzu Express",
+    "Description": "Un classique du cinéma acclamé, soigneusement restauré pour les cinémas modernes.",
+    "Tags": [
+      "classic",
+      "romance"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_classic",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Le Zuzu Express\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound trainWhistle/pause 300",
+        "Text": "Le Zuzu Express effectue un dernier voyage vers le sud, depuis le littoral glacé... C’est un voyage de trois jours !",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Une jeune femme regarde avec nostalgie par la fenêtre.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound doorCreak/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "guyEnters",
+        "ID": "winter1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le film explore un thème intemporel... le conflit entre la raison et les émotions.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Va-t-elle suivre le chemin de la raison ou les désirs de son coeur ?",
+        "Shake": false,
+        "ResponsePoint": "zuzucityexpress_mind_heart",
+        "ID": "winter1_6"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le film se termine avant que l’on puisse le découvrir...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_7"
+      }
+    ]
+  },
+  "winter_movie_0": {
+    "ID": null,
+    "SheetIndex": 5,
+    "Title": "Le miracle de la ferme Coldstar",
+    "Description": "Contre toute attente, une famille garde l’esprit de l’étoile hivernal en vie...",
+    "Tags": [
+      "family",
+      "classic"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "winter1",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Le miracle de la ferme Coldstar\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "C’est la veille de l’étoile hivernale et il neige depuis 3 semaines.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "La famille Coldstar est bloquée... il est impossible d’aller en ville. Heureusement, les vaches ont assez de foin pour survivre.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cow/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "... Mais la famille Coldstar est à court de nourriture.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound croak/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_5"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Malgré tout, Papa Coldstar affronte les conditions dangereuses pour abattre l’arbre de l’étoile hivernale...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_6"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 300/playSound axe/pause 400/playSound axchop/pause 400/playSound axchop/pause 800/playSound treethud/pause 300",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_7"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Malgré leur sensation de faim grandissante, la famille Coldstar décora l’arbre en gardant à l’esprit la promesse de l’étoile hivernale.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_8"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_9"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Cette nuit-là, un phénomène inhabituel arriva...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_10"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"Le lendemain, maman Coldstar s'étonne de trouver l'arbre orné de fruits cosmiques.\"/pause 500/message \"\"Nous avons cru en l’étoile hivernale et elle ne nous a pas oubliés !\"\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_11"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite removeSprite 989",
+        "Text": "Ils ont tous partagé le fruit étoilé. Malgré sa petite taille, c’était le repas le plus copieux et le plus délicieux qu’ils aient jamais eu.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_12"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "La famille Coldstar est sauvée. L'esprit de l'étoile d'hiver a été conservé. La promesse de l'étoile d'hiver a été une nouvelle fois tenue...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_13"
+      }
+    ]
+  },
+  "spring_movie_1": {
+    "ID": null,
+    "SheetIndex": 6,
+    "Title": "Merveilles naturelles : l’exploration de notre monde vibrant",
+    "Description": "Partez à la découverte des terres de la République de Ferngill... En passant par les îles Fern jusqu’à Zuzu Ville, ce monde est plein de vie !",
+    "Tags": [
+      "documentary",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_nature",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Merveilles naturelles : l’exploration de notre monde vibrant\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Les îles Fern, un paradis tropical à 130 km au sud de la côte. Les îles se sont formées en raison de l’activité volcanique de la région et continuent de croître...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le climat chaud de l’océan Austral permet une extrême biodiversité... En bref, l’île regorge de vie !",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Maintenant, nous nous dirigeons vers le nord où se trouve Zuzu Ville en pleine effervescence. C’est un monde de béton et d’acier éclairé par les lumières de la ville.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Les conditions peuvent être difficiles, mais nous y trouvons quand même de la vie en abondance...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Bien plus loin à l’ouest, dans la vaste mer de pierres précieuses se trouve l’île de la prairie. Malgré son nom, cette terre abrite un large éventail de biomes naturels.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "L’île est connue pour sa population abondante de ratons laveurs !",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Enfin, nous retournons sur le continent pour visiter l’une des régions les plus accueillante du continent : Stardew Valley.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_7"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Le climat tempéré de la vallée en fait l'endroit idéal pour toutes sortes d’animaux et d’insectes des bois. Quel endroit magnifique !",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_8"
+      }
+    ]
+  },
+  "fall_movie_1": {
+    "ID": null,
+    "SheetIndex": 7,
+    "Title": "Ça hurle sous la pluie",
+    "Description": "Un groupe de jeunes adultes entreprend de découvrir la source d’un son mystérieux. (Supervision parentale requise)",
+    "Tags": [
+      "horror"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Upper_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"Ça hurle sous la pluie\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Les images suivantes ont été récupérées à partir d’un caméscope abandonné à 50 km au sud de Grampleton\"",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
+        "Text": "\"Vous avez entendu ça ? Je crois que ça vient de la forêt... Allons-y...\" ",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"\"(Respiration bruyante) ... Regardez !\"\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
+        "Text": "(La caméra zoom vers la forêt)",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"Agh! \"/pause 20",
+        "Text": "\"Oh, c’est toi, Gary... *halète* *halète*... Arrête de me tenir le bras !\"",
+        "Shake": true,
+        "ResponsePoint": "",
+        "ID": "fall1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"'Regardez ! C’est dans le buisson...'\"/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"Aiiie ! \"/pause 500/spriteText 4 \"Oh... \"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_7"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
+        "Text": "(On peut entendre des cris étouffés et un étrange raffut)",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_8"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"Cette chose est toujours quelque part...\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_9"
+      }
+    ]
+  }
+}

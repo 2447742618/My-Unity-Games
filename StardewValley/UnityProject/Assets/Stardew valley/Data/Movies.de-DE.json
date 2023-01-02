@@ -1,0 +1,966 @@
+{
+  "spring_movie_0": {
+    "ID": null,
+    "SheetIndex": 0,
+    "Title": "Das mutige, kleine Bäumchen",
+    "Description": "Eine animierte Familien-Komödie über einen kleinen Spross auf einem magischen Abenteuer ein Baum zu werden.",
+    "Tags": [
+      "family",
+      "comedy"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "sweet",
+        "Sound": "",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "Das mutige, kleine Bäumchen",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Das mutige, kleine Bäumchen verlässt sein Zuhause. Er zögert einen kleinen Moment und dreht um, wissend, dass er für eine lange zeit nicht zurückkeehren wird...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_1"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound dustMeep/pause 200/playSound dustMeep/pause 300/playSound dustMeep/pause 100/playSound dustMeep/pause 200/playSound dustMeep",
+        "Text": "Die anderen Bäumchen seiner Baumgruppe haben sich am Rande der Stadt zusammengefunden, um ihn zu verabschieden...!",
+        "Shake": false,
+        "ResponsePoint": "sprout_leave",
+        "ID": "spring0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Oh nein! Aus dem nichts, fängt es an zu regnen...! Das kleine Bäumchen fängt an zu sprinten, während sich ein Gewitter über ihm zusammenbraut.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "thunder",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "Um sein Leben fürchtend und wegen des unnachgiebigen Wolkenbruchs, beginnt das kleine Bäumchen seine Hoffnung zu verlieren...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_4"
+      },
+      {
+        "Image": 4,
+        "Music": "echos",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "...Aber was ist das...? Das Bäumchen fühlt ein Kribbeln auf seinem Kopf...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound coin/pause 1000/message \"Vielleicht hat es ein bisschen Regen gebraucht, um die Reise ein Baum zu werden, zu beginnen!\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 2000,
+        "Script": "",
+        "Text": "Lebewohl, kleiner Kumpel!",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_7"
+      }
+    ]
+  },
+  "fall_movie_0": {
+    "ID": null,
+    "SheetIndex": 1,
+    "Title": "Mysterium",
+    "Description": "Blicke hinter den Mitternachts-Schleier... Du musst es erleben, um es zu glauben!",
+    "Tags": [
+      "horror",
+      "art"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Lava_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "'Mysterium'",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1500",
+        "Text": "Eine schwache Silhouette in der Dunkelheit...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_1"
+      },
+      {
+        "Image": -1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 2 1000/playSound batScreech",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_2"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Die trostlose, unbekannte Leere des Weltalls... wo unsägliche Schrecken warten.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 4 400/playSound serpentHit/pause 2000/specificTemporarySprite movieFrame 1 4 150/playSound shadowHit/pause 300/specificTemporarySprite movieFrame 1 4 400/playSound serpentDie",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_5"
+      },
+      {
+        "Image": -1,
+        "Music": "spring_night_ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieTheater_screen 1 6 false/pause 3000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 3000",
+        "Text": "Eine Vielfalt zusammenhangsloser, außer-weltlicher Szenen spielen sich ab...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "spirits_eve",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound skeletonDie/pause 6000",
+        "Text": "",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall0_8"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowpeep",
+        "Text": "\"Ihr MÜSST euren Freunden empfehlen heute Nacht MYSTERIUM zu schauen...\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowDie",
+        "Text": "\"...Oder ich werde euch in eurem Schlaf heimsuchen!\"",
+        "Shake": true,
+        "ResponsePoint": "mysterium_shadow",
+        "ID": "fall0_10"
+      }
+    ]
+  },
+  "summer_movie_0": {
+    "ID": null,
+    "SheetIndex": 2,
+    "Title": "Reise des Prärie Königs: Der Film",
+    "Description": "Das allseits geliebte Video-Spiel kommt auf die Leinwand!",
+    "Tags": [
+      "action"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Cowboy_OVERWORLD",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "\"Reise des Prärie Königs: Der Film\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Mal wieder auf den staubigen Gleisen, finden wir Prärie König, wie er auf einen Güterzug mit wertfollen Schätzen aufpasst.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Jedoch schaut der böse Bandit von einer Klippe aus zu, ohne das unser Held davon weiß...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_2"
+      },
+      {
+        "Image": 3,
+        "Music": "cowboy_outlawsong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Endlich werde ich diesen selbstgerechten Scheriff los und verschwinde mit den Schätzen... Es steht mir zu!\"",
+        "Shake": false,
+        "ResponsePoint": "PK_villain",
+        "ID": "summer0_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 400/playSound thunder_small",
+        "Text": "\"Ups! Sieht so aus, als ob diese Lavine direkt auf den Güterzug zurollt.\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Schau! Der Prärie König hört ein leichtes Donnern in der Ferne... Schau!",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"Instinktiv gibt er einen Schuss ab\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"Aber was ist das? Wasser fliegt wild umher!\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "none",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
+        "Text": " Er hat es wieder einmal geschafft! Der dicke Schlamm stoppt die Lavine auf der Stelle.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_8"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "Cowboy_Secret",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Der Güterzug ist gerettet.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "Cowboy_singing",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Das Ende!",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_10"
+      }
+    ]
+  },
+  "summer_movie_1": {
+    "ID": null,
+    "SheetIndex": 3,
+    "Title": "Wumbus",
+    "Description": "Eine absurde Sci-Fi Komödie über das Leben eines pummeligen Kerls von einem anderen Stern.",
+    "Tags": [
+      "sci-fi",
+      "comedy",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_wumbus",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Wumbus'",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Wumbus, der's immer locker nimmt, streckt sich und genießt die Wärme der Sonne seines Planeten.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Sein treuer Diener, Nahrungsbot, versorgt ihn pausenlos mit frittierten Gluten-Riegel und \"Roter Soße\".",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Wumbus versucht seinem Neffen, Rossel, die Kultur und Angelegenheiten des Sonnensystems nahezubringen, jedoch zeigt sich Rossel unbeeindruckt.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_3"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Pshha!'",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Der Film ist ein humorvoller Einblick in Wumbus' merkwürdige Welt. Eine Welt, in der sich Technologie und Gesellschaft extrem weiterentwickelt haben",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound phone/pause 300",
+        "Text": "Viele Szenen versuchen in der Absurdität des Modernen Lebensstiels, Humor zu finden.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Doch trotz der fast unendlichen Unterhaltungs-Möglichkeiten, genießen Wumbus und seine Freunde es immernoch sich auf ein Stück Pizza zu treffen (geformt aus 100% Gluten-Materialien). ",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_7"
+      }
+    ]
+  },
+  "winter_movie_1": {
+    "ID": null,
+    "SheetIndex": 4,
+    "Title": "Der Zuzu City Express",
+    "Description": "Ein allseits geliebter Klassiker, achtsam für moderne Kinos wiederbelebt.",
+    "Tags": [
+      "classic",
+      "romance"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_classic",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Der Zuzu City Express'",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound trainWhistle/pause 300",
+        "Text": "Der Zuzu City Express bricht von der eisigen Küste für eine letzte Fahrt Richtung Süden auf... Es ist eine drei-tägige Reise.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Ein junges Fräulein schaut wehmütig aus dem Fenster.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound doorCreak/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "guyEnters",
+        "ID": "winter1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Der Film erkundet eine zeitlose Thematik... Der Konflikt zwischen Vernunft und Emotionen.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Wird sie den Anweisungen ihres vernünfigen Verstands oder der Sensucht ihres Herzens folgen?",
+        "Shake": false,
+        "ResponsePoint": "zuzucityexpress_mind_heart",
+        "ID": "winter1_6"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Der Film endet, bevor wir es erfahren...",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_7"
+      }
+    ]
+  },
+  "winter_movie_0": {
+    "ID": null,
+    "SheetIndex": 5,
+    "Title": "Das Wunder auf der Coldstar Ranch",
+    "Description": "Allen Widrigkeiten zum Trotz, hält eine Familie den Geist eines Winter Sterns am leben...",
+    "Tags": [
+      "family",
+      "classic"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "winter1",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Das Wunder auf der Coldstar Ranch'",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Es ist der Abend des Winter Sterns und es hat 3 Wochen lang ununterbrochen geschneit.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": " Die Coldstar Familie ist gestrandet... Zur Stadt zu kommen, ist unmöglich. Glücklicherweise haben die Kühe genug Stroh um zu überleben.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cow/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "...Jedoch hat die Familie kein Essen mehr.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound croak/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_5"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Trotzdem trotzt Papa Coldstar den heimtückischen Bedingungen, um den Winter Stern Baum zu fällen.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_6"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 300/playSound axe/pause 400/playSound axchop/pause 400/playSound axchop/pause 800/playSound treethud/pause 300",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_7"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Trotz ihres Hungers, dekoriert die Familie den Baum, um das Versprechen an den Winter Stern zu halten.",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_8"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_9"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "In jener Nacht, ein ungewöhnliches Phänomen.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_10"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"Am nächsten Tag ist Mama Coldstar erstaunt, den mit kosmischen Früchten geschmückten Baum zu finden.\"/pause 500/message \"\"Wir glaubten an den Winter Stern, also wurden wir nicht vergessen!\"\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_11"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite removeSprite 989",
+        "Text": "Alle teilten sich eine Sternenfall-Frucht. Trotz seiner kleinen Größe, war es das sättigendste und leckerste Mahl, das sie je gehabt haben.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_12"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Die Familie ist gerettet und der Geist der Hoffnung ist lebendig und gesund. Das Versprechen des Wintersterns wird erneut gehalten...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_13"
+      }
+    ]
+  },
+  "spring_movie_1": {
+    "ID": null,
+    "SheetIndex": 6,
+    "Title": "Natürliche Wunder: Erkundung unserer lebhaften Welt",
+    "Description": "Unternimm eine Fahrt durch die Lande der Ferngill Republik... von den Fern Inseln zu Zuzu City; diese Welt ist voller Leben!",
+    "Tags": [
+      "documentary",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_nature",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Natürliche Wunder: Erkundung unserer lebhaften Welt'",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Die Fern Inseln, ein tropisches Paradies 130km von der südlichen Küste enfernt. Die Inseln enstsprangen wegen der vulkanischen Aktivität in der Region und Sie wachsen noch immer...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Das warme Klima des südlichen Ozeans erlaubt extreme Artenvielfalt... kurzgesagt: Die Insel strotzt vor Leben!",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Jetzt bewegen wir uns Richtung Norden zu der Hektik in Zuzu City. Eine Welt aus Beton und Stahl, erleuchtet von den Lampen der Stadt.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Die Gegebenheiten mögen hart sein, jedoch finden wir immernoch reichlich Leben...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Weit im Westen, einsam im riesigen Edelstein-Meer, liegt die 'Prärie-Insel'. Trotz des Namens, besitzt diese Insel viele verschiedene natürliche Biome.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Die Insel ist für den riesigen Bestand an Waschbären bekannt!",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Schlussendlich kehren wir zum Festland zurück, um eine der angenehmsten Orte auf dem Kontinent zu besuchen... Stardew Valley.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_7"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Das angenehme Klima dieses Ortes ist das perfekte Zuhause für eine Vielfalt an Tieren und Insekten, die im Wald leben. Was ein wunderschöner Ort!",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_8"
+      }
+    ]
+  },
+  "fall_movie_1": {
+    "ID": null,
+    "SheetIndex": 7,
+    "Title": "Das Geheul im Regen",
+    "Description": "Eine Gruppe Teenager versucht die Quelle dieser mysteriösen Geräusche zu finden. (Nur unter Aufsicht von Erwachsenen)",
+    "Tags": [
+      "horror"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Upper_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"Das Geheul im Regen\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "\"Die folgenden Aufnahmen wurden aus einer Videokamera 50km südlich von Grampleton geborgen\"",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
+        "Text": "\"Habt Ihr das gehört? Ich glaube das kam aus den Wäldern da vorne... Los gehts...\"",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"'(keuchen)... Schau!'\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
+        "Text": "(Die Kamera taumelt in den Wald)",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"Agh! \"/pause 20",
+        "Text": "\"Oh, du bist es nur, Gary... *hechel* *hechel*... Hör auf meinen Arm zu packen!\"",
+        "Shake": true,
+        "ResponsePoint": "",
+        "ID": "fall1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"'Schau! Es ist im Busch!'\"/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"Aiii! \"/pause 500/spriteText 4 \"Oh... \"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_7"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
+        "Text": "(Dumpfe Schreie und ein merkwürdiges schlürfendes Geräusch ist hörbar)",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_8"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"Es ist immernoch da draußen!\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_9"
+      }
+    ]
+  }
+}

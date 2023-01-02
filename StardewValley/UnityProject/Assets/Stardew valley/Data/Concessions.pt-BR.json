@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Algodão Doce",
+    "Description": "Uma grande nuvem rosa de açúcar enrolado.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Chá de Jasmim",
+    "Description": "Chá verde com flores aromáticas de jasmim.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Joja Cola",
+    "Description": "Um copo extra grande do principal refrigerante da Joja.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Geléias Azedas",
+    "Description": "Pequenas geléias de várias cores. Elas são polvilhadas com um pó extremamente azedo.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Pizza Pessoal",
+    "Description": "Uma pizza pequenas o suficiente para servir de lanche.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Nachos",
+    "Description": "Queijo grudento e picante em cima de tortillas recém fritas.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Hamburguer de Salmão",
+    "Description": "Um corte grosso de salmão em um pão de gergelim levemente tostado.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Sanduíche de Sorvete",
+    "Description": "Sorvete de baunilha prensado entre dois biscoitos de chocolate.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Pipoca",
+    "Description": "Milho estourado, levemente polvilhado de sal e cheio de manteiga.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Batata Frita",
+    "Description": "Cortes finos de batata, fritos e levemente salgados.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Pipoca de Chocolate",
+    "Description": "É pipoca normal... mas com cobertura de chocolate.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Alcaçuz Preto",
+    "Description": "Um doce borrachento com um sabor forte e intenso.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Biscoito de Estrela",
+    "Description": "Um biscoito em formato de estrela com confeitos de arco-íris.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Jawbreaker",
+    "Description": "É um doce grande e duro que dura um filme inteiro!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Amendoim Salgado",
+    "Description": "Um petisco salgado clássico.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Pacote de Lanchinhos de Homus",
+    "Description": "É crocante e saudável.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Batida de Couve",
+    "Description": "É cheio de vitaminas e fibras.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Pedaços de Maçã",
+    "Description": "Pedaços crocantes e doces.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Salada Panzanella",
+    "Description": "Uma salada de verão com pão e tomate.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Pipoca de Trufa",
+    "Description": "Pipoca relíquia, polvilhada com sal de trufa.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Bolo de Mousse de Cappuccino",
+    "Description": "Pequeno bolo de chocolate coberto de mousse de cappuccinio.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "Joja-Milho",
+    "Description": "Comida de milho patenteada pela Joja, cheia de muito \"creme de manteiga\".",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Sorbet de Fruta-Estrela",
+    "Description": "Uma única gota de essência de fruta-estrela transforma este sorbet em uma comida extraordinária.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Doce-Pedra",
+    "Description": "Cristais de açúcar grudados em um palito conveniente.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

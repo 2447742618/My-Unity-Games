@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Zucchero filato",
+    "Description": "Una grande nuvola rosa di zucchero filato.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Tè al gelsomino",
+    "Description": "Tè verde aromatizzato con fiori di gelsomino.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Joja Cola",
+    "Description": "Un bicchiere extra-large della bevanda ammiraglia della Joja.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Melme aspre",
+    "Description": "Piccole melme gommose in colori assortiti. Sono cosparse di una polverina estremamente aspra.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Pizza portatile",
+    "Description": "Una pizza abbastanza piccola da poter essere gustata come spuntino.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Nachos",
+    "Description": "Patatine di tortilla appena fritte, coperte di formaggio piccante e appiccicoso.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Hamburger di salmone",
+    "Description": "Una grossa fetta di salmone su un panino ai semi di sesamo leggermente tostato.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Panino di gelato",
+    "Description": "Gelato alla vaniglia spalmato tra due biscotti al cioccolato.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Popcorn",
+    "Description": "Chicchi di mais scoppiati, con una spolverata di sale e una passata di burro.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Patatine",
+    "Description": "Fettine sottili di patata, fritte in immersione e leggermente salate.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Popcorn al cioccolato",
+    "Description": "Sono come i popcorn normali... ma con un rivestimento di cioccolato.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Liquirizia nera",
+    "Description": "Un dolcetto da masticare con un sapore intenso e pungente.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Biscotto stellare",
+    "Description": "Un biscotto di pastafrolla a forma di stella con spruzzatine arcobaleno.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Spaccadenti",
+    "Description": "Una grossa caramella immasticabile che dura per tutto il film!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Noccioline",
+    "Description": "Un classico degli spuntini salati.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Snack all'hummus",
+    "Description": "Croccante e salutare.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Frullato di cavolo",
+    "Description": "Stracarico di fibra e vitamine.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Fettine di mela",
+    "Description": "Piccole fettine dolci e croccanti.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Panzanella",
+    "Description": "Un'insalata estiva di pane e pomodori.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Popcorn al tartufo",
+    "Description": "Popcorn biologici cosparsi di sale al tartufo.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Torta con mousse al cappuccino",
+    "Description": "Una piccola torta al cioccolato glassata di mousse al cappuccino.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "JojaCorn",
+    "Description": "Il cibo al mais brevettato dalla Joja, totalmente inzuppato di \"salsa al b'urro\".",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Sorbetto di astropomo",
+    "Description": "Una singola goccia di essenza di astropomo trasforma questo sorbetto in un piacere straordinario.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Zucchero pietrificato",
+    "Description": "Cristalli zuccherini aromatizzati, attaccati ad un comodo bastoncino.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]
