@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 452813807
+    locked: 0
   - name: Instance
     uniqueID: 331469715
+    locked: 0
+  - name: Foreground
+    uniqueID: 1069862417
+    locked: 0
+  - name: Collision
+    uniqueID: 839922871
     locked: 0
