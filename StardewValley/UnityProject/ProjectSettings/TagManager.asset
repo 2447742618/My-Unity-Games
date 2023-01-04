@@ -42,8 +42,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: Ground Bottom
     uniqueID: 452813807
+    locked: 0
+  - name: Ground Middle
+    uniqueID: 653992303
+    locked: 0
+  - name: Ground Top
+    uniqueID: 3195526521
     locked: 0
   - name: Instance
     uniqueID: 331469715
