@@ -5,7 +5,7 @@ public class ItemDetails
 {
     public int itemID;
 
-    public string name;
+    public string itemName;
 
     public ItemType itemType;
 
@@ -17,10 +17,10 @@ public class ItemDetails
 
     public int itemUseRadius;
 
-    public bool pickable, carriable,dropable;
+    public bool pickedupable, carriedable, droppedable;
 
     public int itemPrice;
 
     [Range(0,1)]
-    public float solePercentage;
+    public float soldPercentage;
 }

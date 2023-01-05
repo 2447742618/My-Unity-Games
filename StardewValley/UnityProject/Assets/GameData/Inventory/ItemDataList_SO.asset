@@ -9,19 +9,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 534367c9ab7ddd5498ef30e79b8082a3, type: 3}
   m_Name: ItemDataList_SO
   m_EditorClassIdentifier: Assembly-CSharp::ItemDataListSO
   itemDetailsList:
   - itemID: 1001
-    name: "\u65A7\u5934"
-    itemType: 4
+    itemName: name
+    itemType: 0
     itemIcon: {fileID: 0}
     itemOnWorldSprite: {fileID: 0}
     itemDescription: 
     itemUseRadius: 0
-    pickable: 1
-    carriable: 0
-    dropable: 0
+    pickedupable: 0
+    carriedable: 0
+    droppedable: 0
     itemPrice: 0
-    solePercentage: 0
+    soldPercentage: 0
+  - itemID: 1001
+    itemName: name
+    itemType: 0
+    itemIcon: {fileID: 0}
+    itemOnWorldSprite: {fileID: 0}
+    itemDescription: 
+    itemUseRadius: 0
+    pickedupable: 0
+    carriedable: 0
+    droppedable: 0
+    itemPrice: 0
+    soldPercentage: 0
