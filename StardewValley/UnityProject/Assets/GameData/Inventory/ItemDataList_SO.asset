@@ -14,26 +14,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDataListSO
   itemDetailsList:
   - itemID: 1001
-    itemName: name
-    itemType: 0
-    itemIcon: {fileID: 0}
+    itemName: "\u65A7\u5934"
+    itemType: 4
+    itemIcon: {fileID: 21300000, guid: b6a14792f492b2244bdbb7323c8e8eef, type: 3}
     itemOnWorldSprite: {fileID: 0}
-    itemDescription: 
+    itemDescription: "\u8FD9\u662F\u4E00\u628A\u65A7\u5934\u3002"
     itemUseRadius: 0
-    pickedupable: 0
+    pickedupable: 1
     carriedable: 0
     droppedable: 0
     itemPrice: 0
     soldPercentage: 0
-  - itemID: 1001
-    itemName: name
-    itemType: 0
-    itemIcon: {fileID: 0}
+  - itemID: 1002
+    itemName: "\u9504\u5934"
+    itemType: 3
+    itemIcon: {fileID: 21300000, guid: 7740cca943e89ba47a163630d98b2588, type: 3}
     itemOnWorldSprite: {fileID: 0}
-    itemDescription: 
+    itemDescription: "\u8FD9\u662F\u4E00\u628A\u9504\u5934\u3002"
     itemUseRadius: 0
-    pickedupable: 0
+    pickedupable: 1
     carriedable: 0
     droppedable: 0
+    itemPrice: 0
+    soldPercentage: 0
+  - itemID: 1003
+    itemName: "\u6C34\u58F6"
+    itemType: 7
+    itemIcon: {fileID: 21300000, guid: f2f16b99b75748d4f96ed04b578baf76, type: 3}
+    itemOnWorldSprite: {fileID: 0}
+    itemDescription: "\u8FD9\u662F\u4E00\u4E2A\u6C34\u58F6\u3002"
+    itemUseRadius: 0
+    pickedupable: 1
+    carriedable: 0
+    droppedable: 0
+    itemPrice: 0
+    soldPercentage: 0
+  - itemID: 1004
+    itemName: "\u82B1\u6930\u83DC\u79CD\u5B50"
+    itemType: 0
+    itemIcon: {fileID: 21300000, guid: ec1e31bc09b5ee44fabd61c208f4f5da, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 5e9ad55381071514487f30307b47026c, type: 3}
+    itemDescription: "\u82B1\u6930\u83DC\u79CD\u5B50\uFF0C\u53EF\u79CD\u51FA\u82B1\u6930\u83DC\u3002"
+    itemUseRadius: 0
+    pickedupable: 1
+    carriedable: 1
+    droppedable: 1
+    itemPrice: 0
+    soldPercentage: 0
+  - itemID: 1005
+    itemName: "\u82B1\u6930\u83DC"
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: 49ad0b484a124a845b9cc65e7b305d80, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: b4e32d8b75c32914e83de9b2df9cd6c6, type: 3}
+    itemDescription: "\u8FD9\u662F\u82B1\u6930\u83DC\u3002"
+    itemUseRadius: 0
+    pickedupable: 1
+    carriedable: 1
+    droppedable: 1
     itemPrice: 0
     soldPercentage: 0

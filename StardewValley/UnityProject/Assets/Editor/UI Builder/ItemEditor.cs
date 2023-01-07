@@ -47,7 +47,7 @@ public class ItemEditor : EditorWindow
         itemRowTemplate = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/UI Builder/ItemRowTemplate.uxml");
 
         //拿默认Icon图片
-        defaultIcon = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Textures/Icon/Default Icon.png");
+        defaultIcon = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Textures/Icons/Default Icon.png");
 
         //变量赋值
         itemListView = root.Q<VisualElement>("ItemList").Q<ListView>("ListView");
@@ -151,7 +151,7 @@ public class ItemEditor : EditorWindow
             itemListView.Rebuild();
         });
 
-        iconPreview.style.backgroundImage = activeItem.itemIcon == null ? defaultIcon.texture : activeItem.itemIcon.texture;
+        iconPreview.style.backgroundImage = activeItem.itemIcon != null ? activeItem.itemIcon.texture : defaultIcon.texture;
         itemDetailsSection.Q<ObjectField>("ItemIcon").value = activeItem.itemIcon;
         itemDetailsSection.Q<ObjectField>("ItemIcon").RegisterValueChangedCallback(evt =>
         {
