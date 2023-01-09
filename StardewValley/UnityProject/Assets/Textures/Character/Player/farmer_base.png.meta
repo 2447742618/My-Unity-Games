@@ -822,7 +822,7 @@ TextureImporter:
       name: player_walk_up_body_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 576
         width: 16
         height: 32
@@ -6039,7 +6039,7 @@ TextureImporter:
     nameFileIdTable:
       farmer_base_97: 2028304562
       farmer_base_259: 13848118
-      player_walk_right_arm_0: 337753227
+      farmer_base_11: -1497210952
       farmer_base_113: -127979440
       farmer_base_136: 565729517
       farmer_base_165: 693701916
@@ -6318,7 +6318,7 @@ TextureImporter:
       farmer_base_28: 690103545
       player_walk_down_arm_0: 1659325056
       farmer_base_87: 747981827
-      farmer_base_11: -1497210952
+      player_walk_right_arm_0: 337753227
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
