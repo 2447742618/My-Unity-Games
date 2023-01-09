@@ -54,9 +54,6 @@ TagManager:
   - name: Instance
     uniqueID: 331469715
     locked: 0
-  - name: Collision
-    uniqueID: 839922871
-    locked: 0
   - name: Foreground Bottom
     uniqueID: 1069862417
     locked: 0
@@ -65,4 +62,7 @@ TagManager:
     locked: 0
   - name: Foreground Top
     uniqueID: 1732940541
+    locked: 0
+  - name: Collision
+    uniqueID: 839922871
     locked: 0
