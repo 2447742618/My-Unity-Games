@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "Yapılıyor.",
+  "DismountBeforeEntering": "Girmeden önce inmelisin.",
+  "PiecesOfHay": "Saman Balyası: {0}/{1}",
+  "AddedHay": "Siloya {0} tane saman balyası eklendi.",
+  "MillFull": "Yer yok.",
+  "CantMill": "Öğütülemez.",
+  "NeedSilo": "Silo gerekiyor.",
+  "CantEnter": "Şu anda giremezsin.",
+  "WrongFishType": "{0}, {1} havuzunda yaşamak istemiyor.",
+  "WrongFishTypeCoral": "{0} yalnızca {0} havuzuna konulabilir.",
+  "CantPutInPonds": "{0} burada mutlu olmayacaktır.",
+  "NoFish": "Havuza balık konulabilir.",
+  "PondFull": "Havuz dolu.",
+  "Paint_Region_Roof": "Çatı",
+  "Paint_Region_Building": "Çatı"
+}

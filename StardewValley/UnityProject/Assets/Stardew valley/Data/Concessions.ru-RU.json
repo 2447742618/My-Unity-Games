@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Сладкая вата",
+    "Description": "Огромное розовое облако сахарной ваты.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Жасминовый чай",
+    "Description": "Зеленый чай с ароматом жасминовых цветов.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Джоджа-кола",
+    "Description": "Очень большая банка флагманской газировки компании.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Кислые слаймы",
+    "Description": "Мелкие разноцветные мармеладные слаймы. Они посыпаны очень кислой пудрой.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Пицца для одного",
+    "Description": "Достаточно маленькая пицца, чтобы перекусить одному.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Начос",
+    "Description": "Свежеиспеченные кукурузные чипсы с тянущимся острым сыром.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Бургер с лососем",
+    "Description": "Толстый кусок лосося на слегка обжаренной булочке с кунжутом.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Мороженое-сэндвич",
+    "Description": "Ванильное мороженое между двух шоколадных печений.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Попкорн",
+    "Description": "Слегка подсоленные и сбрызнутые растопленным сливочным маслом зерна воздушной кукурузы.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Картошка фри",
+    "Description": "Слегка подсоленные и обжаренные во фритюре тонкие ломтики картофеля.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Шоколадный попкорн",
+    "Description": "Обычный попкорн... с шоколадной посыпкой.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Черная лакрица",
+    "Description": "Жевательная конфета с насыщенным пикантным вкусом.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Звездное печенье",
+    "Description": "Песочное печенье в форме звезды с радужной посыпкой.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Очень твердый леденец",
+    "Description": "Это большой твердый леденец, который не закончится весь сеанс!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Соленый арахис",
+    "Description": "Классическое соленое лакомство.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Перекус с хумусом",
+    "Description": "Хрустящий и здоровый перекус.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Смузи из кудрявой капусты",
+    "Description": "В нем куча витаминов и волокон.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Яблочные дольки",
+    "Description": "Хрустящие и сладкие маленькие дольки.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Панцарелла",
+    "Description": "Летний салат из хлеба и помидоров.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Трюфельный попкорн",
+    "Description": "Семейный рецепт попкорна с щепоткой трюфельной соли.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Пирожное с капучиновым муссом",
+    "Description": "Шоколадное пирожное с глазурью из капучинового мусса.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "Джоджа-руза",
+    "Description": "Запатентованная кукурузная еда от Джоджа, сдобренная большим количеством «масляного соуса».",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Щербет из Звездной капли",
+    "Description": "Совсем немного эссенции Звездной капли превращает этот щербет в необычайное лакомство.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Леденец",
+    "Description": "Вкусный жженый сахар на удобной палочке.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

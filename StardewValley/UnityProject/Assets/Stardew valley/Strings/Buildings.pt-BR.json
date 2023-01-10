@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "Em construção.",
+  "DismountBeforeEntering": "Desmonte antes de entrar",
+  "PiecesOfHay": "Pedaços de feno: {0}/{1}",
+  "AddedHay": "{0} pedaços de feno adicionados ao silo.",
+  "MillFull": "Não há mais espaço",
+  "CantMill": "Não pode ser moído",
+  "NeedSilo": "Silo necessário",
+  "CantEnter": "Não é possível entrar agora",
+  "WrongFishType": "Seu peixe {0} não quer viver em um lago de {1}.",
+  "WrongFishTypeCoral": "{0} só pode ser colocado em um lago {0}.",
+  "CantPutInPonds": "{0} não ficaria feliz aqui.",
+  "NoFish": "Peixes podem ser colocados neste lago.",
+  "PondFull": "O lago está cheio.",
+  "Paint_Region_Roof": "Telhado",
+  "Paint_Region_Building": "Construção"
+}

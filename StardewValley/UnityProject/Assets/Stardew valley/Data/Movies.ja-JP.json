@@ -1,0 +1,966 @@
+{
+  "spring_movie_0": {
+    "ID": null,
+    "SheetIndex": 0,
+    "Title": "勇敢なリトル苗",
+    "Description": "アニメーションの家族コメディー。小さな芽が木に育つまでのマジカルアドベンチャー！",
+    "Tags": [
+      "family",
+      "comedy"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "sweet",
+        "Sound": "",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "勇敢なリトル苗",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "勇敢なリトル苗が家を出ます。ちゅうちょして振り返った彼は、当分帰ってこれないことを確信していた…",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_1"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound dustMeep/pause 200/playSound dustMeep/pause 300/playSound dustMeep/pause 100/playSound dustMeep/pause 200/playSound dustMeep",
+        "Text": "他の畑の苗も町に集まり、小枝をふってサヨナラを告げています…！",
+        "Shake": false,
+        "ResponsePoint": "sprout_leave",
+        "ID": "spring0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "オーノー！突然…雨が降り始めました！頭上に雷雲が現れ、リトル苗は猛ダッシュしました…",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "thunder",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "死への恐怖、どしゃ降りの雨に落胆し、勇敢なリトル苗は希望すら失っていました…",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_4"
+      },
+      {
+        "Image": 4,
+        "Music": "echos",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "…しかし、これは何でしょうか？苗の頭がムズムズしてきました… ",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound coin/pause 1000/message \"木に育つまでのアドベンチャーを始めるには、たぶんこの雨が必要だったのでしょう！\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 2000,
+        "Script": "",
+        "Text": "小さな友よ、さらば！",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_7"
+      }
+    ]
+  },
+  "fall_movie_0": {
+    "ID": null,
+    "SheetIndex": 1,
+    "Title": "ミステリウム",
+    "Description": "真夜中のベールに隠された真実を凝視…信じるためにも体験してみよう！",
+    "Tags": [
+      "horror",
+      "art"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Lava_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "「ミステリウム」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1500",
+        "Text": "暗闇にうかぶシルエット…",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_1"
+      },
+      {
+        "Image": -1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 2 1000/playSound batScreech",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_2"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "孤独、宇宙の未知…計り知れない恐怖が待つ。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 4 400/playSound serpentHit/pause 2000/specificTemporarySprite movieFrame 1 4 150/playSound shadowHit/pause 300/specificTemporarySprite movieFrame 1 4 400/playSound serpentDie",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_5"
+      },
+      {
+        "Image": -1,
+        "Music": "spring_night_ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieTheater_screen 1 6 false/pause 3000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 3000",
+        "Text": "支離滅裂…別世界が広がる…",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "spirits_eve",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound skeletonDie/pause 6000",
+        "Text": "",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall0_8"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowpeep",
+        "Text": "「友達にミステリウムを今夜見るように伝えなければいけません…」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowDie",
+        "Text": "「…さもなければ、睡眠中に自ら訪れよう！」",
+        "Shake": true,
+        "ResponsePoint": "mysterium_shadow",
+        "ID": "fall0_10"
+      }
+    ]
+  },
+  "summer_movie_0": {
+    "ID": null,
+    "SheetIndex": 2,
+    "Title": "プレーリーキングの旅：モーション・ピクチャー",
+    "Description": "大人気のビデオゲームがついにシルバースクリーンに！",
+    "Tags": [
+      "action"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Cowboy_OVERWORLD",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "「プレーリーキングの旅：モーション・ピクチャー」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "古汚い道でまたもや、大量の宝を積んだワゴン列車を凝視するプレーリーキングを発見しました。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "しかし、私たちのヒーローに隠れ、悪のアウトローが近くの崖から見ています。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_2"
+      },
+      {
+        "Image": 3,
+        "Music": "cowboy_outlawsong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「ついに、あの独善的なサツを殺して、宝を手に入れよう…当然の報いだ！」",
+        "Shake": false,
+        "ResponsePoint": "PK_villain",
+        "ID": "summer0_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 400/playSound thunder_small",
+        "Text": "「おっと！この先で、ワゴン列車に雪崩が待っているようだ。」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "プレーリーキングは、この先から聞こえる音に気づきました。見て！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"急いで考えた彼は、発砲しました\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"しかし、何でしょうか？ウォーターがあちこちに飛んでいる！\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "none",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
+        "Text": "彼はまたやったのです！大量の泥で雪崩を止めたのです。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_8"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "Cowboy_Secret",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "ワゴン列車は救われました。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "Cowboy_singing",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "おしまい。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_10"
+      }
+    ]
+  },
+  "summer_movie_1": {
+    "ID": null,
+    "SheetIndex": 3,
+    "Title": "ウンバス",
+    "Description": "他の惑星からやってきたぽっちゃり男の生き様を描いた、おかしなSFコメディー。",
+    "Tags": [
+      "sci-fi",
+      "comedy",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_wumbus",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「ウンバス」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "ウンバスは、いつも気楽にストレッチして、日向ぼっこを楽しんでいます。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "その傍らで、彼の忠実なしもべ、フードボットが焼きグルテンパックのレッドソースがけを調理しています。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "ウンバスは、甥のロッセルは星システムの文化や活動に興味があるのですが、あまり面白くないようです。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_3"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「プシャー！」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "この映画は、ウンバスの奇妙で社会や技術が極端に『進化』した世界でのおかしな生活を描写しています。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound phone/pause 300",
+        "Text": "様々なシーンで、モダンなライフスタイルの不条理に対するギャグが盛り込まれています。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "娯楽、エンターテイメントの選択は無限にあるにも関わらず、ウンバスは友達と一緒にピザ(グルテン100%)を食べたりします。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_7"
+      }
+    ]
+  },
+  "winter_movie_1": {
+    "ID": null,
+    "SheetIndex": 4,
+    "Title": "ズズシティ・エクスプレス",
+    "Description": "大人気のクラシック映画、現代のシアターで大切に復元されました。",
+    "Tags": [
+      "classic",
+      "romance"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_classic",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「ズズシティ・エクスプレス」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound trainWhistle/pause 300",
+        "Text": "ズズシティ・エクスプレスが氷の地方から南に最後の旅へと出ます。3日間の旅！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "若い女性が物思わしげに窓の外を眺めています。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound doorCreak/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "guyEnters",
+        "ID": "winter1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "映画は、永遠のテーマといえる…「理由と感情の葛藤」を描写しています。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "果たして彼女は、理性と渇望、どちらを選ぶのでしょうか？",
+        "Shake": false,
+        "ResponsePoint": "zuzucityexpress_mind_heart",
+        "ID": "winter1_6"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "その答えを知ることなく、映画は終わってしまいます…",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_7"
+      }
+    ]
+  },
+  "winter_movie_0": {
+    "ID": null,
+    "SheetIndex": 5,
+    "Title": "コールドスター・ランチの奇跡",
+    "Description": "大きな困難にもかかわらず、家族は冬星の精神を絶やすことなく守ってきました。",
+    "Tags": [
+      "family",
+      "classic"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "winter1",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「コールドスター・ランチの奇跡」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "冬星の前日です。3週間前からずっと雪が降り続けています。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "コールドスター一家は足止めを食らっています…町まで行くことは到底不可能な状態です。幸い、牛の餌である野草は足りています。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cow/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "…しかし、家族の食料は無くなってしまったのです。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound croak/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_5"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "パパ・コールドスターは、この危険な状況でも勇敢に冬星の木を切っています…",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_6"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 300/playSound axe/pause 400/playSound axchop/pause 400/playSound axchop/pause 800/playSound treethud/pause 300",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_7"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "空腹であるにも関わらず、家族は木を着飾って、冬星との約束を守ろうと必死です。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_8"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_9"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "その夜、不思議なことが起きました…",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_10"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"次の日、ママコールドスターは、宇宙の果物で飾られた木を見つけて驚いています。\"/pause 500/message \"「私たちが冬星を信じていることを、覚えていてくれたのです！」\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_11"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite removeSprite 989",
+        "Text": "彼らは、スタードロップフルーツを分け合った。果物は小さいものの、今まで味わったことがないほど美味しくて、満腹感も素晴らしいものだった。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_12"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "家族は救われて、希望の心は生き生きして元気です。冬星の約束はもう一度守られます...",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_13"
+      }
+    ]
+  },
+  "spring_movie_1": {
+    "ID": null,
+    "SheetIndex": 6,
+    "Title": "天下の奇観：スリリングな世界を探検",
+    "Description": "フェーンギル共和国を探検しましょう…フェーン諸島やズズシティ、沢山の生命が存在します！",
+    "Tags": [
+      "documentary",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_nature",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「天下の奇観：スリリングな世界を探検」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "フェーン諸島、南海岸から80マイルの所にあるトロピカルパラダイスです。島は、付近の火山活動で形成され、活動は今でも続いています…",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "南の湖の暖かい気候の影響で、高水準の生物学的多様性が実現されています…要するに、島には生命が沢山いるのです！",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "では、騒がしい北のズズシティに移動しましょう。コンクリートと鋼鉄のジャングル、そして人工的な明かりでシティは形成されています。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "コンディションは厳しいですが、豊かな生活送る者もいます…",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "西の彼方のジェム海では、プレーリーアイランドがその中にポツンと浮かんでいます。名前とは裏腹に、この土地には様々な生物群系が存在します。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "そして、島はアライグマが沢山いることで有名です！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "では、最後にメインランドに移りましょう。この大陸で最も快適な場所…Stardew Valleyです。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_7"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "温暖な気候の谷は、森林に生息する生物や虫にとって完璧な住処です。なんと美しいのでしょう！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_8"
+      }
+    ]
+  },
+  "fall_movie_1": {
+    "ID": null,
+    "SheetIndex": 7,
+    "Title": "雨中の遠ぼえ",
+    "Description": "ある若者のグループが、この謎の音を調査するために集まりました。(保護者の指導が必要)",
+    "Tags": [
+      "horror"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Upper_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"雨中の遠ぼえ\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "「この映像は、グランプルトンから30マイル南の場所で廃棄物として発見されたビデオカメラのものです。」",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
+        "Text": "「聞こえたか？あの森からだと思う…行ってみよう…」",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"(荒い息)…見ろ！\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
+        "Text": "(森の中でカメラが傾く)",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"アガッ！\"/pause 20",
+        "Text": "「あ、なんだギャリー、お前か…*ハッ* *ハッ*…腕掴むの止めてくれ！」",
+        "Shake": true,
+        "ResponsePoint": "",
+        "ID": "fall1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"見ろ！草藪にいる！\"/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"アイー！\"/pause 500/spriteText 4 \"オー…\"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_7"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
+        "Text": "(静寂の後、奇妙な音が聞こえる)",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_8"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"まだどこかにいるはず…\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_9"
+      }
+    ]
+  }
+}

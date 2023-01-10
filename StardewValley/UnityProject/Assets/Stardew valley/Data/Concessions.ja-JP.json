@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "わたあめ",
+    "Description": "ピンクの砂糖を綿状にした大きくフワフワな菓子。",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "ジャスミン茶",
+    "Description": "緑茶にジャスミンの花の香りを吸着させたお茶。",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "ジョージャ・コーラ",
+    "Description": "特大カップのジョージャの有名なソーダ。",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "サワースライム",
+    "Description": "様々な色の極小スライムグミ。とても強い酸味のあるパウダーがふりかかっている。",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "一口ピザ",
+    "Description": "オヤツとして楽しめるサイズの小さなピザ。",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "ナチョス",
+    "Description": "焼きたてのトルティーヤ・チップスの上にとろけるスパイシーチーズがのっている料理。",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "鮭バーガー",
+    "Description": "軽くトーストされたごまパンと分厚い鮭でできたバーガー。",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "アイスクリームサンド",
+    "Description": "2枚のチョコレートクッキーにバニラアイスクリームが挟まったアイスクリームサンド。",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "ポップコーン",
+    "Description": "トウモロコシを炒って、軽く塩をかけ、バターをからませたもの。",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "フライドポテト",
+    "Description": "細切りのポテトを油で揚げて、軽く塩をかけたもの。",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "チョコレートポップコーン",
+    "Description": "普通のポップコーン…でもチョコレートがコーティングされている。",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "ブラック・リコリッシュ",
+    "Description": "グミの様な歯ごたえがあり、強く刺激のある味がする。",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "スタークッキー",
+    "Description": "レインボースプリンクルがかかった、星の形をしたショートブレッド・クッキー。",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "ジョーブレイカー",
+    "Description": "大きく、かたいキャンディー。映画を1本見終えるくらい長く舐めていられる！",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "塩味ピーナッツ",
+    "Description": "定番の塩味。",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "フムス・スナックパック",
+    "Description": "歯ごたえがあるヘルシーなスナック。",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "ケール・スムージー",
+    "Description": "ビタミンと食物繊維が豊富。",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "リンゴのスライス",
+    "Description": "シャリシャリとした歯ごたえの小さなスライス。",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "パンツァネッラ・サラダ",
+    "Description": "パンとトマトを使った夏のサラダ。",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "トリュフポップコーン",
+    "Description": "トリュフ塩がふりかかった高級ポップコーン。",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "カプチーノムースケーキ",
+    "Description": "小さなチョコレートケーキの上にカプチーノムースがのったもの。",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "ジョージャコーン",
+    "Description": "ジョージャ特許製品、大量の「バターソース」がかかったコーン食品。",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "スタードロップ・シャーベット",
+    "Description": "スタードロップのエキスを一滴入れた極上のシャーベット。",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "ロックキャンディ",
+    "Description": "棒についた味付き氷砂糖。",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

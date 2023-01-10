@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Vattacukor",
+    "Description": "Egy hatalmas, rózsaszín felhőnyi fonott cukor.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Jázmin tea",
+    "Description": "Zöld tea, ami illatos jázmin virággal van ízesítve.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Joja Cola",
+    "Description": "Egy extra nagy csészényi üdítő a Joja vezető márkájából.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Keserű ragacs",
+    "Description": "Apró nyúlós ragacsok többféle színben. Extrém keserű porral vannak megszórva.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Személyes pizza",
+    "Description": "Egy olyan kicsi pizza, amit nasiként fogyaszthatsz.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Nachos",
+    "Description": "Ragacsos, borsos sajt frissen sült tortilla chipszen.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Lazacburger",
+    "Description": "Egy vastag szelet lazac egy enyhén pirított szezámos buciban.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Jégkrém szendvics",
+    "Description": "Vaníliás jégkrém két csokis süti közé rakva.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Pattogatott kukorica",
+    "Description": "Pattogatott kukoricamag, könnyed sóba hintve és vajjal megkenve.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Sültkrumpli",
+    "Description": "Vékony burgonyaszeletek, amiket jól átsütnek, majd könnyedén megsóznak.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Csokis pattogatott kukorica",
+    "Description": "Ez hagyományos pattogatott kukorica... csokiba mártva.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Fekete medvecukor",
+    "Description": "Egy rágós cukorka élénk, pikáns ízzel.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Csillag süti",
+    "Description": "Egy csillag alakú teasütemény szivárvány hintéssel.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Álltörő",
+    "Description": "Ez egy nagy, kemény cukor, ami az egész film alatt kitart!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Sós mogyoró",
+    "Description": "Egy klasszikus sós étel.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Hummusz édességcsomag",
+    "Description": "Ropogós és egészséges.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Kelkáposzta turmix",
+    "Description": "Vitaminokkal és rostokkal megtöltve.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Almaszeletek",
+    "Description": "Ropogós és édes kis szeletek.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Panzanella saláta",
+    "Description": "Egy nyári saláta kenyérből és paradicsomból.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Szarvasgombás pattogatott kukorica",
+    "Description": "Családi ereklyeként szolgáló pattogatott kukorica szarvasgombás sóval ízesítve.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Kapuccsinó habos torta",
+    "Description": "Egy apró csokis torta, amit kapuccsinó habbal vontak be.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "JojaRica",
+    "Description": "Joja által szabadalmazott kukorica étel, vastag \"vajjas szósszal\" bevonva\".",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Csillaghulló sörbet",
+    "Description": "Ezt a sörbetet egyetlen csillaghulló esszencia rendkívüli élvezetté változtatja.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Kőcukor",
+    "Description": "Ízesített cukros kristályok, amik kényelmesen rúdra vannak erősítve.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

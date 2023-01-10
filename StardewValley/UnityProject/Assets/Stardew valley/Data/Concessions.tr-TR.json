@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Pamuk Şeker",
+    "Description": "Büyük ve pembe bir pamuk şeker.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Yasemin Çayı",
+    "Description": "Yasemin çiçeği ile tatlandırılmış yeşil çay.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Joja Kola",
+    "Description": "Joja'nın baş içeceğinin ekstra büyük boy hali.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Tozlu Balçıkçalar",
+    "Description": "Küçük ve renkli yapışkan balçıkçalar. Üstlerine ekşileştirici bir toz serpilmiş.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Tekli Pizza",
+    "Description": "Atıştırmalık olarak yenilebilecek küçüklükte pizza.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Naço",
+    "Description": "Taze kızarmış tortilla cipsinin üstüne baharatlı peynir dökülmüş yapış yapış bir atıştırmalık.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Somonburger",
+    "Description": "Az pişmiş susamlı ekmeğin arasına konmuş ince bir somon dilimi.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Dondurmalı Sandviç",
+    "Description": "İki çikolatalı kurabiye arasına konulan vanilyalı dondurma.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Patlamış Mısır",
+    "Description": "Hafif tuz ve yağ serpilen, patlamış tane mısırlar.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Patates Kızartması",
+    "Description": "Bol yağda kızartılmış ve hafifçe tuzlanmış ince patates dilimleri.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Çikolatalı Patlamış Mısır",
+    "Description": "Bildiğimiz patlamış mısır... Bir tek çikolata ile kaplanmış.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Meyan Şekeri",
+    "Description": "Yoğun ve keskin tada sahip olan çiğnenebilir bir şeker.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Yıldız Kurabiye",
+    "Description": "Üstünde renkli parçacıklar bulunan yıldız şeklinde bir kurabiye.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Çenekıran",
+    "Description": "Film bitene dek anca tüketilen büyük ve sert bir şeker!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Tuzlu Fıstık",
+    "Description": "Çok bilinen tuzlu bir ikramlık.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Çerez Paketi",
+    "Description": "Çıtır çıtır ve sağlıklı.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Lahana Püresi",
+    "Description": "Vitamin ve lif içerir.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Elma Dilimi",
+    "Description": "Sert ve tatlı dilimler.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Panzanella",
+    "Description": "İçinde ekmek kırıntıları ve domates bulunan bir çeşit yaz salatası.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Yermantarlı Patlamış Mısır",
+    "Description": "Üstüne yermantarı yağı dökülen bir tür patlamış mısır.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Kremalı Kek",
+    "Description": "Kremayla kaplanmış küçük bir kek.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "JojaMısır",
+    "Description": "Joja'nın patentli mısır öğünü. Tereyağlı sosa batırılarak yapılır.",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Yıldızkaydı Şerbeti",
+    "Description": "Tek bir damla yıldızkaydı özü ile olağanüstü bir ikramlığa dönüşen şerbet.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Akide Şekeri",
+    "Description": "Çubuğa tutturulan tatlandırılmış şeker parçacıkları.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

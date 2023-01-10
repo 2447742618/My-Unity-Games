@@ -1,0 +1,966 @@
+{
+  "spring_movie_0": {
+    "ID": null,
+    "SheetIndex": 0,
+    "Title": "勇敢的小树苗",
+    "Description": "一部家庭动画喜剧，讲述了一颗小树苗经历了一番神奇的冒险后成长为一棵树的故事！",
+    "Tags": [
+      "family",
+      "comedy"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "sweet",
+        "Sound": "",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "勇敢的小树苗",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "勇敢的小树苗正离开他的家。他犹豫了一会儿，转过身去，知道自己会离开很长一段时间……",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_1"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound dustMeep/pause 200/playSound dustMeep/pause 300/playSound dustMeep/pause 100/playSound dustMeep/pause 200/playSound dustMeep",
+        "Text": "树林里的其他小树聚集在城镇的边缘，激动地挥动着它们的树枝，与其告别……！",
+        "Shake": false,
+        "ResponsePoint": "sprout_leave",
+        "ID": "spring0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "哦不！突如其来开始下雨了……！乌云密布头顶，小树苗开始加速冲刺……",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "thunder",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "恐惧从心中浮现，信念被无止尽的大雨冲刷殆尽，勇敢的小树苗开始失去希望……",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_4"
+      },
+      {
+        "Image": 4,
+        "Music": "echos",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "……但这是什么……？小树感到头顶有刺痛感…… ",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound coin/pause 1000/message \"也许一场落雨就是迈向参天大树的第一步！\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 2000,
+        "Script": "",
+        "Text": "再见了，小家伙！",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring0_7"
+      }
+    ]
+  },
+  "fall_movie_0": {
+    "ID": null,
+    "SheetIndex": 1,
+    "Title": "神秘事迹",
+    "Description": "直面午夜面纱的背后所隐藏的……只有经历过才会相信！",
+    "Tags": [
+      "horror",
+      "art"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Lava_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "《神秘事迹》",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1500",
+        "Text": "黑暗中若隐若现的轮廓……",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_1"
+      },
+      {
+        "Image": -1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 2 1000/playSound batScreech",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_2"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "荒凉、未知的虚空中……有难以言说的恐怖在等待。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 4 400/playSound serpentHit/pause 2000/specificTemporarySprite movieFrame 1 4 150/playSound shadowHit/pause 300/specificTemporarySprite movieFrame 1 4 400/playSound serpentDie",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_5"
+      },
+      {
+        "Image": -1,
+        "Music": "spring_night_ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieTheater_screen 1 6 false/pause 3000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 3000",
+        "Text": "各种支离破碎的，超脱世俗想象的场景上演……",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "spirits_eve",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound skeletonDie/pause 6000",
+        "Text": "",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall0_8"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowpeep",
+        "Text": "“你一定要告诉你的朋友去看今晚的《神秘事迹》……”",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowDie",
+        "Text": "“……否则我会在你沉睡之时拜访！”",
+        "Shake": true,
+        "ResponsePoint": "mysterium_shadow",
+        "ID": "fall0_10"
+      }
+    ]
+  },
+  "summer_movie_0": {
+    "ID": null,
+    "SheetIndex": 2,
+    "Title": "草原之王之旅：大电影",
+    "Description": "大受喜爱的电子游戏来到银屏之上！",
+    "Tags": [
+      "action"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Cowboy_OVERWORLD",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "《草原之王之旅：大电影》",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "又是在尘土飞扬的古道上，我们看到草原之王正看守着一列满载珍贵宝藏的货车。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "但是，我们的主人公不知道，邪恶的歹徒正在附近的悬崖上虎视眈眈……",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_2"
+      },
+      {
+        "Image": 3,
+        "Music": "cowboy_outlawsong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "“终于能够把那个自以为是的治安官除掉并且把宝物偷走了……那是我的囊中之物！”",
+        "Shake": false,
+        "ResponsePoint": "PK_villain",
+        "ID": "summer0_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 400/playSound thunder_small",
+        "Text": "“天哪！看起来这山崩是直冲着列车去的。”",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "草原之王听到远处传来一阵微弱的隆隆声……看！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"思绪如电，他开了一枪。\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"但发生了什么？水花四处飞溅！\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "none",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
+        "Text": "他又开了一枪！厚厚的泥土阻止了山崩。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_8"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "Cowboy_Secret",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "列车获救了。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "Cowboy_singing",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "谢幕。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer0_10"
+      }
+    ]
+  },
+  "summer_movie_1": {
+    "ID": null,
+    "SheetIndex": 3,
+    "Title": "温布斯",
+    "Description": "一部荒诞的科幻喜剧，以另一个星球上某个笨蛋的生活和时代为中心展开。",
+    "Tags": [
+      "sci-fi",
+      "comedy",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_wumbus",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "《温布斯》",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "温布斯，总是无忧无虑，身心放松，享受来自他星球的恒星带来的温暖。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "他忠实的仆人，食品机器人，向他提供源源不断的油炸面饼和“红酱”。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "温布斯试图让他的侄子罗塞尔对星体系统的文化和事务感兴趣，但罗塞尔对此兴趣平平。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_3"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "“啐！”",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "这部电影描述的是温布斯生活的奇怪世界里的一个幽默的生活片段，这个世界的技术已经发展到了一个极高的水平。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound phone/pause 300",
+        "Text": "许多场景试图在现代生活方式的荒谬中找到幽默。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "summer1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "但是，尽管拥有近乎无限的娱乐方式，温布斯和他的朋友们仍然喜欢聚在一起，享用一顿美味的比萨。（100%由谷蛋白材料制成。）",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "summer1_7"
+      }
+    ]
+  },
+  "winter_movie_1": {
+    "ID": null,
+    "SheetIndex": 4,
+    "Title": "祖祖城特快列车",
+    "Description": "一部备受喜爱的经典电影，经过精心重置，适合现代影院。",
+    "Tags": [
+      "classic",
+      "romance"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_classic",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "《祖祖城特快列车》",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound trainWhistle/pause 300",
+        "Text": "祖祖城特快列车从冰冷的海岸向南部展开了最后一趟旅程……这是一趟为期三天的旅程！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "一位年轻的女士若有所思地凝视着窗外。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound doorCreak/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "guyEnters",
+        "ID": "winter1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "这部电影探索了一个永恒的主题……理性与情感的冲突。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "她会追随自身理性思维的方向，还是她内心的渴望？",
+        "Shake": false,
+        "ResponsePoint": "zuzucityexpress_mind_heart",
+        "ID": "winter1_6"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "在我们找到答案之前，电影就结束了……",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter1_7"
+      }
+    ]
+  },
+  "winter_movie_0": {
+    "ID": null,
+    "SheetIndex": 5,
+    "Title": "冷星牧场的奇迹",
+    "Description": "尽管困难重重，一个家庭还是保持着冬星精神的延续……",
+    "Tags": [
+      "family",
+      "classic"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "winter1",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "《冷星牧场的奇迹》",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "这是冬星日的前夜，已经连续三周下雪不停了。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "冷星家族陷入困境……去不了城里。幸运的是，奶牛有足够的干草可以过活。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cow/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "……但是这家人已经没有食物储备了。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound croak/pause 500",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_5"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "尽管如此，冷星爸爸还是勇敢地冒着险恶的条件砍下了冬星树……",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_6"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 300/playSound axe/pause 400/playSound axchop/pause 400/playSound axchop/pause 800/playSound treethud/pause 300",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_7"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "尽管他们很饿，家里还是将这棵树装饰起来，让冬星的诺言永存。",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_8"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_9"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "当晚，不寻常的现象发生了……",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_10"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"第二天，冷星妈妈惊讶地发现树上零星点缀着宇宙果实。\"/pause 500/message \"“我们相信着冬日星，正是因此我们得以被铭记！”\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_11"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite removeSprite 989",
+        "Text": "他们一起分享了星之果实。尽管它很小，但却是他们吃过的最美味、最满足的食物。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "winter0_12"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "一家人获救了，希望的精灵也活蹦乱跳着。冬星的诺言再一次被忠实地遵守……",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "winter0_13"
+      }
+    ]
+  },
+  "spring_movie_1": {
+    "ID": null,
+    "SheetIndex": 6,
+    "Title": "自然奇观：探索我们这充满活力的世界",
+    "Description": "参观芬吉尔共和国的土地……从芬群岛到祖祖城，这个世界充满了生机！",
+    "Tags": [
+      "documentary",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "movie_nature",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "《自然奇观：探索我们这充满活力的世界》",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "芬群岛是南部海岸80英里外的热带天堂。这些岛屿是由于该地区的火山活动而形成的，而且还在不断增长……",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "南大洋温暖的气候使得生物多样性极为丰富……简而言之，这个岛上充满了生命！",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "现在我们往北走，来到繁华的祖祖城。它是一个由混凝土和钢铁组成的世界，有城市的光芒照亮。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "这里的自然环境可能很恶劣，但我们仍然发现了大量的自然生命……",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "在遥远的西部，广阔的宝石海上，草原岛孤立其中。从它的名字可以看出，这片土地是各种各样的自然生物群落的家园。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "这个岛以其浣熊数量众多而闻名！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "最后，我们回到大陆，参观大陆上最宜人的地区之一……星露谷。",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "spring1_7"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "山谷的温带气候是各种森林生物和昆虫的完美家园。多美的地方啊！",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "spring1_8"
+      }
+    ]
+  },
+  "fall_movie_1": {
+    "ID": null,
+    "SheetIndex": 7,
+    "Title": "它在雨中嚎叫",
+    "Description": "一群年轻人开始寻找一个神秘声音的来源。（未成年人请家长陪同观看）",
+    "Tags": [
+      "horror"
+    ],
+    "Scenes": [
+      {
+        "Image": 0,
+        "Music": "Upper_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"它在雨中嚎叫\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "“以下镜头是从格兰普立顿以南30英里处的废弃摄像机中抢救出来的。”",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
+        "Text": "“你听到了吗？我想它是从那些树林里传来的……我们走……”",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"“(沉重的喘息)……看！”\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
+        "Text": "（摄像机摇晃着向前进入森林）",
+        "Shake": true,
+        "ResponsePoint": null,
+        "ID": "fall1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"啊！\"/pause 20",
+        "Text": "“哦，原来只是你，加里……(喘)(喘)……别抓着我的胳膊！”",
+        "Shake": true,
+        "ResponsePoint": "",
+        "ID": "fall1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"“看！它在灌木丛中……”\"/pause 2000",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"哎呀！\"/pause 500/spriteText 4 \"哦……\"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_7"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
+        "Text": "（能听到低沉的叫声和奇怪的脚步声）",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "fall1_8"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"它还在那里……\"",
+        "Text": "",
+        "Shake": false,
+        "ResponsePoint": "",
+        "ID": "fall1_9"
+      }
+    ]
+  }
+}

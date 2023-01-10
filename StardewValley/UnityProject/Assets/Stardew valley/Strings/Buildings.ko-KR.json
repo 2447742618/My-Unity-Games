@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "공사 중.",
+  "DismountBeforeEntering": "말에서 내리고 입장해주세요",
+  "PiecesOfHay": "건초 조각: {0}/{1}",
+  "AddedHay": "저장고에 건초 조각 {0}개를 넣었습니다.",
+  "MillFull": "빈 공간이 없습니다",
+  "CantMill": "가루로 갈 수 없습니다",
+  "NeedSilo": "저장고가 필요합니다",
+  "CantEnter": "지금은 입장할 수 없습니다",
+  "WrongFishType": "{1}이(가) 지내는 연못에서 {0}은(는) 지내고 싶어 하지 않습니다.",
+  "WrongFishTypeCoral": "{0}은(는) {0} 연못에만 둘 수 있습니다.",
+  "CantPutInPonds": "{0}은(는) 이곳에서 행복하지 않을 것입니다.",
+  "NoFish": "이 연못에 물고기를 풀어 둘 수 있습니다.",
+  "PondFull": "이 연못은 가득 찼습니다.",
+  "Paint_Region_Roof": "지붕",
+  "Paint_Region_Building": "지붕"
+}

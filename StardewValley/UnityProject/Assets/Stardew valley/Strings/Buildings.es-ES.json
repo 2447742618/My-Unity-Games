@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "Construcción en curso.",
+  "DismountBeforeEntering": "Desmonta antes de entrar.",
+  "PiecesOfHay": "Cantidad de heno: {0}/{1}",
+  "AddedHay": "Has añadido {0} montones de heno al silo.",
+  "MillFull": "No queda espacio.",
+  "CantMill": "No se puede moler.",
+  "NeedSilo": "Necesitas un silo.",
+  "CantEnter": "No se puede entrar ahora mismo.",
+  "WrongFishType": "Tu {0} no quiere vivir en un estanque de {1}.",
+  "WrongFishTypeCoral": "{0} solo puede ser colocado en un estanque de {0}.",
+  "CantPutInPonds": "El {0} no sería feliz aquí.",
+  "NoFish": "Puedes colocar peces en este estanque.",
+  "PondFull": "Este estanque está lleno.",
+  "Paint_Region_Roof": "Tejado",
+  "Paint_Region_Building": "Tejado"
+}

@@ -1,0 +1,17 @@
+{
+  "UnderConstruction": "Építés alatt.",
+  "DismountBeforeEntering": "Szállj le, mielőtt bemennél",
+  "PiecesOfHay": "Széna: {0}/{1}",
+  "AddedHay": "{0} széna lett hozzáadva a silóhoz.",
+  "MillFull": "Nincs több hely",
+  "CantMill": "Nem lehet őrölni",
+  "NeedSilo": "Siló szükséges hozzá",
+  "CantEnter": "Most nem mehetsz be",
+  "WrongFishType": "A nálad lévő {0} nem akar élni egy {1} tóban.",
+  "WrongFishTypeCoral": "Egy {0} csak egy {0} Tóba lehet helyezni.",
+  "CantPutInPonds": "A nálad lévő {0} nem lenne boldog odabent.",
+  "NoFish": "Ebbe a tóba halakat lehet rakni.",
+  "PondFull": "Ez a tó tele van.",
+  "Paint_Region_Roof": "Tető",
+  "Paint_Region_Building": "Tető"
+}

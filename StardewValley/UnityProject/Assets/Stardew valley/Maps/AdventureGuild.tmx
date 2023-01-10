@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="14" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="2">
+  <properties>
+    <property name="AmbientLight" type="string" value="95 95 95" />
+    <property name="DayTiles" type="string" value="Front 3 1 256 Front 3 2 288 Front 10 1 256 Front 10 2 288" />
+    <property name="Light" type="string" value="3 8 4 6 8 4 11 8 4 3 2 5 10 2 5 6 19 5 5 15 5 5 11 5 11 12 5" />
+    <property name="Music" type="string" value="MarlonsTheme" />
+    <property name="NightTiles" type="string" value="Front 3 1 1253 Front 3 2 1285 Front 10 1 1253 Front 10 2 1285" />
+    <property name="Warp" type="string" value="6 20 Mountain 76 9" />
+  </properties>
+  <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1376" columns="32">
+    <image source="townInterior" width="512" height="688" />
+    <tile id="1323">
+      <animation>
+        <frame tileid="1323" duration="250" />
+        <frame tileid="1323" duration="250" />
+        <frame tileid="1323" duration="250" />
+        <frame tileid="1259" duration="250" />
+        <frame tileid="1325" duration="250" />
+        <frame tileid="1325" duration="250" />
+        <frame tileid="1259" duration="250" />
+        <frame tileid="1323" duration="250" />
+        <frame tileid="1323" duration="250" />
+        <frame tileid="1323" duration="250" />
+        <frame tileid="1323" duration="250" />
+      </animation>
+    </tile>
+    <tile id="1324">
+      <animation>
+        <frame tileid="1324" duration="250" />
+        <frame tileid="1324" duration="250" />
+        <frame tileid="1324" duration="250" />
+        <frame tileid="1260" duration="250" />
+        <frame tileid="1326" duration="250" />
+        <frame tileid="1326" duration="250" />
+        <frame tileid="1260" duration="250" />
+        <frame tileid="1324" duration="250" />
+        <frame tileid="1324" duration="250" />
+        <frame tileid="1324" duration="250" />
+        <frame tileid="1324" duration="250" />
+      </animation>
+    </tile>
+    <tile id="1355">
+      <animation>
+        <frame tileid="1355" duration="250" />
+        <frame tileid="1355" duration="250" />
+        <frame tileid="1355" duration="250" />
+        <frame tileid="1291" duration="250" />
+        <frame tileid="1357" duration="250" />
+        <frame tileid="1357" duration="250" />
+        <frame tileid="1291" duration="250" />
+        <frame tileid="1355" duration="250" />
+        <frame tileid="1355" duration="250" />
+        <frame tileid="1355" duration="250" />
+        <frame tileid="1355" duration="250" />
+      </animation>
+    </tile>
+    <tile id="1356">
+      <animation>
+        <frame tileid="1356" duration="250" />
+        <frame tileid="1356" duration="250" />
+        <frame tileid="1356" duration="250" />
+        <frame tileid="1292" duration="250" />
+        <frame tileid="1358" duration="250" />
+        <frame tileid="1358" duration="250" />
+        <frame tileid="1292" duration="250" />
+        <frame tileid="1356" duration="250" />
+        <frame tileid="1356" duration="250" />
+        <frame tileid="1356" duration="250" />
+        <frame tileid="1356" duration="250" />
+      </animation>
+    </tile>
+  </tileset>
+  <layer id="1" name="Back" width="14" height="20" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+232,233,232,233,232,233,232,233,232,233,232,233,264,265,
+264,301,302,302,302,302,302,302,302,302,302,302,303,233,
+232,301,302,302,302,302,302,302,302,302,302,302,303,265,
+264,301,331,331,331,331,331,113,113,113,331,331,303,233,
+232,574,575,672,575,576,575,576,575,576,672,576,606,265,
+264,639,640,704,640,639,1150,1151,1152,639,704,607,608,233,
+232,607,608,607,608,607,1182,1183,1184,607,608,607,608,265,
+264,639,640,639,640,639,640,639,640,639,640,639,640,233,
+232,607,1342,1342,1342,1342,1342,1342,605,1342,1342,1342,1341,265,
+264,256,1374,1374,1374,1374,1374,1374,692,1342,1374,1374,1341,233,
+232,1274,1306,1341,1341,1341,1341,1341,113,1341,1341,1341,1341,265,
+264,1337,1273,1274,1273,1274,1273,1274,1273,1274,1273,1274,1304,233,
+232,1305,1306,1305,1306,1305,1306,1305,1306,1369,1370,1305,1306,265,
+264,1337,1273,1274,1273,1274,1273,1337,1338,1337,1338,1337,1338,233,
+1305,1305,1306,1300,1301,1302,1303,1305,1306,1305,1306,1305,1306,265,
+1337,1337,1338,1332,1333,1334,1335,1337,1338,1337,1338,1337,1338,233,
+232,1305,1306,1364,1365,1366,1367,1305,1306,1305,1306,1305,1306,265,
+264,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,233,
+232,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,265,
+264,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,233
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="14" height="20" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1,10,11,11,11,11,11,11,11,11,11,11,12,0,
+10,42,0,0,0,0,0,0,0,0,0,0,44,37,
+65,80,81,81,81,81,81,1230,1231,1232,81,81,82,69,
+65,112,113,113,113,113,113,1262,1263,1264,113,113,114,69,
+65,144,524,0,835,648,649,1294,1295,1296,0,453,146,69,
+65,432,0,0,0,0,0,0,0,0,0,0,364,69,
+65,0,0,0,0,0,0,0,0,0,0,834,0,1,
+65,0,194,3,3,3,3,3,3,3,3,3,12,1,
+65,0,155,0,0,0,0,156,660,155,702,0,44,12,
+65,0,187,81,81,81,81,188,1207,187,734,81,82,69,
+65,0,219,113,113,113,113,220,1307,219,766,113,114,69,
+65,0,918,0,0,0,894,1371,0,797,798,0,146,69,
+65,0,1105,1106,1106,1106,1107,0,0,0,0,1356,1357,69,
+65,0,1180,1269,0,0,0,0,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,0,1368,69,
+65,0,0,0,0,0,0,0,0,0,0,1360,1361,69,
+65,1368,0,0,0,0,0,0,0,0,0,1180,897,69,
+65,1360,1361,0,0,0,0,0,0,1180,888,889,0,69,
+161,726,726,897,0,0,0,0,0,0,0,1180,536,1,
+1,1,1,1,1,65,0,69,1,1,1,1,1,1
+</data>
+  </layer>
+  <layer id="3" name="Front" width="14" height="20" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,2,0,0,0,1233,0,0,0,0,0,0,4,1,
+33,0,0,257,0,1265,1345,0,411,0,257,0,0,0,
+0,0,0,289,0,0,0,0,0,0,289,0,0,0,
+0,0,0,0,0,616,617,0,0,0,0,1347,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,332,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,164,166,166,166,166,166,166,166,166,166,167,168,
+0,0,0,0,0,0,0,0,0,669,670,0,4,0,
+0,0,0,1271,1330,1331,1271,0,309,701,0,1271,0,37,
+0,0,0,0,1362,1363,0,0,0,733,0,0,0,0,
+0,0,886,0,0,0,830,1339,0,765,0,0,0,0,
+0,0,481,919,920,1308,0,0,0,0,0,1324,1325,0,
+0,0,0,1237,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1336,0,
+0,0,0,0,0,0,0,0,0,0,0,1328,1329,0,
+0,1336,0,0,0,0,0,0,0,0,0,0,866,0,
+0,1328,1329,0,0,0,0,0,0,0,856,857,0,0,
+0,694,694,866,0,0,0,0,0,0,0,0,504,0,
+0,162,166,166,166,163,0,164,166,166,166,166,167,168,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="4" name="Back" visible="false" locked="false" />
+  <objectgroup id="5" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="80" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="AdventureShop" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="Front" visible="false" locked="false" />
+</map>
