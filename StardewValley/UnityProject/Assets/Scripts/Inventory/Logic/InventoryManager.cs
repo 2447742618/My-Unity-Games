@@ -11,6 +11,10 @@ namespace StardewValley.Inventory
         [Header("玩家背包数据")]
         public InventoryBag_SO playerBag;
 
+        private void Start()
+        {
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player,playerBag.itemList);
+        }
 
         /// <summary>
         /// 通过ID获得物品信息
@@ -34,6 +38,8 @@ namespace StardewValley.Inventory
             AddItemAtIndex(item.itemID, index, 1);
 
             if (toDestory) Destroy(item.gameObject);
+
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
         }
 
 

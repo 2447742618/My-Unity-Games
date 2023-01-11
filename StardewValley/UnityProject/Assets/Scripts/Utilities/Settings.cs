@@ -8,4 +8,6 @@ public class Settings
 
     public const float targetAlpha = 0.45f;
 
+    public const float bagCapacity = 12;
+
 }
