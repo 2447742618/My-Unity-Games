@@ -25,17 +25,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4276650903014699501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6582223748705920131}
-  m_RootOrder: 3
+  m_Father: {fileID: 6582223748467402177}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5, y: 2}
+  m_AnchoredPosition: {x: -4.2499847, y: 0.49996948}
   m_SizeDelta: {x: 10, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8091430422157433572
@@ -160,13 +160,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6582223748467402176}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8177801232021159299}
   m_Father: {fileID: 6582223748705920131}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -243,10 +244,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6582223748467402177}
   - {fileID: 6582223750430573348}
+  - {fileID: 6582223748467402177}
   - {fileID: 650497718588988685}
-  - {fileID: 8177801232021159299}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -349,7 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c36fbf0b6b7089a4297d4a5f6f302c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotImage: {fileID: 6582223748467402178}
+  slotIconImage: {fileID: 6582223748467402178}
+  slotFrameImage: {fileID: 6582223750430573349}
   amountText: {fileID: 6884801985158412282}
   button: {fileID: 6582223748705920132}
   isSelected: 0
@@ -368,6 +369,10 @@ MonoBehaviour:
     soldPercentage: 0
   itemAmount: 0
   slotIndex: 0
+  slotSelectedFrameSprite: {fileID: 21300000, guid: 6fd490451c42b2940937df4abe787feb, type: 3}
+  slotUnselectedFrameSprite: {fileID: 21300000, guid: 1fbcfe7198ac0c246b5ac344070c8c5c, type: 3}
+  slotBarIconSelectedScale: {x: 0.9, y: 0.9}
+  slotBarIconUnselectedScale: {x: 0.8, y: 0.8}
 --- !u!1 &6582223750430573347
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +404,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6582223748705920131}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

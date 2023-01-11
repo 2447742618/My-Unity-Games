@@ -7,9 +7,10 @@ namespace StardewValley.Inventory
     public class ItemSlot : MonoBehaviour
     {
         [Header("组件获取")]
-        [SerializeField] private Image slotImage;
-        [SerializeField] private TextMeshProUGUI amountText;
-        [SerializeField] private Button button;
+        [SerializeField] protected Image slotIconImage;
+        [SerializeField] protected Image slotFrameImage;
+        [SerializeField] protected TextMeshProUGUI amountText;
+        [SerializeField] protected Button button;
 
         public bool isSelected;
 
@@ -17,6 +18,8 @@ namespace StardewValley.Inventory
         public int itemAmount;
 
         public int slotIndex;
+
+        protected InventoryUI inventoryUI => GetComponentInParent<InventoryUI>();
 
         private void Start()
         {
@@ -28,8 +31,8 @@ namespace StardewValley.Inventory
         public void UpdateSlot(ItemDetails item, int amount)
         {
             itemDetails = item;
-            slotImage.sprite = item.itemIcon;
-            slotImage.enabled = true;
+            slotIconImage.sprite = item.itemIcon;
+            slotIconImage.enabled = true;
             itemAmount = amount;
             amountText.text = itemAmount.ToString();
             button.interactable = true;
@@ -39,7 +42,7 @@ namespace StardewValley.Inventory
         {
             if (isSelected) isSelected = false;
 
-            slotImage.enabled = false;
+            slotIconImage.enabled = false;
             amountText.text = string.Empty;
             button.interactable = false;
         }

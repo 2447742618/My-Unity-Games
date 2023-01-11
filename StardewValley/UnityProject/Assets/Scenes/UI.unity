@@ -1389,6 +1389,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2173724414458553003, guid: 5e4ab4e08c45a094da3f475f8d24229e, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6582223748705920130, guid: 5e4ab4e08c45a094da3f475f8d24229e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (9)
@@ -2434,6 +2438,8 @@ GameObject:
   m_Component:
   - component: {fileID: 873455610}
   - component: {fileID: 873455611}
+  - component: {fileID: 873455613}
+  - component: {fileID: 873455612}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -2501,6 +2507,46 @@ MonoBehaviour:
   - {fileID: 240536865}
   - {fileID: 1221767449}
   - {fileID: 202183480}
+  bagUI: {fileID: 874305013}
+  barUI: {fileID: 962775960}
+--- !u!114 &873455612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873455609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &873455613
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873455609}
+  m_CullTransparentMesh: 1
 --- !u!1 &874305013
 GameObject:
   m_ObjectHideFlags: 0

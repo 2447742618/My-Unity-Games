@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Settings
 {
+    //物品半透明化
     public const float fadeDuration = 0.35f;
-
     public const float targetAlpha = 0.45f;
 
-    public const float bagCapacity = 12;
-
+    //背包容量
+    public const int bagCapacity = 12;
 }
