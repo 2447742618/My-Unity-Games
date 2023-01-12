@@ -1,17 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace StardewValley.Inventory
 {
     public class InventoryUI : MonoBehaviour, IScrollHandler
     {
+        [Header("物品栏")]
         [SerializeField] private ItemSlot_Bar[] itemSlot_Bars;
-        [SerializeField] private ItemSlot_Bag[] itemSlot_Bags;
-
-        [SerializeField] private GameObject bagUI;
         [SerializeField] private GameObject barUI;
+
+
+        [Header("玩家背包")]
+        [SerializeField] private ItemSlot_Bag[] itemSlot_Bags;
+        [SerializeField] private GameObject bagUI;
+
+        [Header("父物体")]
+        [SerializeField] private Image inventoryImage;
+
+        [Header("背包当前所选物品")]
+        [SerializeField] private GameObject holdItem;
+        [SerializeField] private Image holdItemIcon;
+        [SerializeField] private TextMeshProUGUI holdItemAmount;
+
         private bool bagOpened;
 
         private int slotSelectedIndex;
@@ -25,11 +39,13 @@ namespace StardewValley.Inventory
         private void OnEnable()
         {
             EventHandler.UpdateInventoryUI += OnUpdateInventoryUI;
+            EventHandler.UpdateBagHoldItem += OnUpdateBagHoldItem;
         }
 
         private void OnDisable()
         {
             EventHandler.UpdateInventoryUI -= OnUpdateInventoryUI;
+            EventHandler.UpdateBagHoldItem -= OnUpdateBagHoldItem;
         }
 
         private void Update()
@@ -71,7 +87,12 @@ namespace StardewValley.Inventory
         /// </summary>
         public void SwitchBagOpen()
         {
+            if (bagOpened && holdItem.activeInHierarchy) return;//选中物品的情况下无法关闭背包窗口
+
             bagOpened = !bagOpened;
+
+            if (bagOpened) inventoryImage.color = new Color(0, 0, 0, Settings.darkALpha);
+            else inventoryImage.color = new Color(0, 0, 0, 0);
 
             //TODO:修改为关闭其他所有窗口（函数）
             bagUI.SetActive(bagOpened);
@@ -113,12 +134,12 @@ namespace StardewValley.Inventory
         }
 
         /// <summary>
-        /// 用于处理滚轮选择物品框
+        /// 用于处理滚轮切换所选物品框
         /// </summary>
         /// <param name="pointerEventData"></param>
         public void OnScroll(PointerEventData pointerEventData)
         {
-            if (CheckBarEmpty()) return;
+            if (barUI.activeInHierarchy == false || CheckBarEmpty()) return;
 
             int dir = (int)-pointerEventData.scrollDelta.y;
             for (int nextIndex = slotSelectedIndex + dir; ; nextIndex += dir)
@@ -144,6 +165,28 @@ namespace StardewValley.Inventory
                 if (slot.itemAmount != 0) return false;
             }
             return true;
+        }
+
+        /// <summary>
+        /// 更新背包中所选物品的图标
+        /// </summary>
+        public void OnUpdateBagHoldItem(InventoryItem item)
+        {
+            if (item.itemAmount == 0)
+            {
+                holdItem.SetActive(false);
+            }
+            else
+            {
+                holdItem.SetActive(true);
+
+                var icon = InventoryManager.Instance.GetItemDetails(item.itemID).itemIcon;
+                var amount = item.itemAmount;
+
+                holdItemIcon.sprite = icon;
+                holdItemIcon.SetNativeSize();
+                holdItemAmount.text = amount.ToString();
+            }
         }
     }
 }

@@ -40,7 +40,8 @@ namespace StardewValley.Inventory
 
         public void ClearSlot()
         {
-            if (isSelected) isSelected = false;
+            isSelected = false;
+            itemAmount = 0;
 
             slotIconImage.enabled = false;
             amountText.text = string.Empty;

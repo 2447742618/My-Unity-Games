@@ -10,4 +10,7 @@ public class Settings
 
     //背包容量
     public const int bagCapacity = 12;
+
+    //UI
+    public const float darkALpha = 100f/255f;
 }
