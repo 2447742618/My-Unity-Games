@@ -6,3 +6,8 @@ public enum ItemType
 
     ReapableScenery
 }
+
+public enum InventoryLocation
+{
+    Player,Box
+}

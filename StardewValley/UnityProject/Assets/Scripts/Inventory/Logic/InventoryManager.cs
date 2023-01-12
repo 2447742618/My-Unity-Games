@@ -10,7 +10,15 @@ namespace StardewValley.Inventory
         public ItemDataList_SO itemDataList_SO;
         [Header("玩家背包数据")]
         public InventoryBag_SO playerBag;
+        [Header("UI控制")]
+        [SerializeField] private InventoryUI inventoryUI;
 
+        private InventoryItem holdInventoryItem = new InventoryItem();
+
+        private void Start()
+        {
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
+        }
 
         /// <summary>
         /// 通过ID获得物品信息
@@ -34,6 +42,8 @@ namespace StardewValley.Inventory
             AddItemAtIndex(item.itemID, index, 1);
 
             if (toDestory) Destroy(item.gameObject);
+
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
         }
 
 
@@ -90,6 +100,48 @@ namespace StardewValley.Inventory
                 var item = new InventoryItem { itemID = ID, itemAmount = amount + playerBag.itemList[index].itemAmount };
                 playerBag.itemList[index] = item;
             }
+        }
+
+        /// <summary>
+        /// 用于处理左键选择背包物品栏操作
+        /// </summary>
+        /// <param name="index"></param>
+        public void BagSlotLeftClicked(int index)
+        {
+            if (holdInventoryItem.itemID == playerBag.itemList[index].itemID && holdInventoryItem.itemAmount != 0)//叠加操作
+            {
+                AddItemAtIndex(holdInventoryItem.itemID, index, holdInventoryItem.itemAmount);
+                holdInventoryItem.itemAmount = 0;
+            }
+            else
+            {
+                InventoryItem bagItem = playerBag.itemList[index];
+                playerBag.itemList[index] = holdInventoryItem;
+                holdInventoryItem = bagItem;
+            }
+
+
+            //更新UI
+            EventHandler.CallUpdateBagHoldItem(holdInventoryItem);
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
+        }
+
+        /// <summary>
+        /// 用于处理右键选择背包物品栏操作
+        /// </summary>
+        /// <param name="index"></param>
+        public void BagSLotRIghtClicked(int index)
+        {
+            if (holdInventoryItem.itemAmount != 0 && holdInventoryItem.itemID != playerBag.itemList[index].itemID) return;
+            if (playerBag.itemList[index].itemAmount == 0) return;
+
+            holdInventoryItem.itemID = playerBag.itemList[index].itemID;
+            holdInventoryItem.itemAmount++;
+            AddItemAtIndex(playerBag.itemList[index].itemID, index, -1);
+
+            //更新UI
+            EventHandler.CallUpdateBagHoldItem(holdInventoryItem);
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
         }
     }
 }
